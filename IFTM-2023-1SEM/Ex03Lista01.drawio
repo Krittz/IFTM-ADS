@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T00:12:01.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="AOY9dKpQAufnXkbSeo8B" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T00:15:40.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="HiNavQUlq3FsotD6qDZp" version="21.0.2" type="github">
   <diagram name="Página-1" id="inuzGDpugHOoVpcAlCcY">
     <mxGraphModel dx="2704" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="xsvngw6nHDRhOhdFqH5k-4" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-870" y="270" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xsvngw6nHDRhOhdFqH5k-5" value="Funcionario&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="xsvngw6nHDRhOhdFqH5k-5" value="Secretária&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-450" y="50" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xsvngw6nHDRhOhdFqH5k-8" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="xsvngw6nHDRhOhdFqH5k-4" target="xsvngw6nHDRhOhdFqH5k-3" edge="1">
