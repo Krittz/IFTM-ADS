@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T23:29:37.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9nfrWwFxa9Pcq-7S3ypW" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-15T23:33:35.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="aBRJsmCYMTgGJ04WR4_X" version="21.0.4" type="github">
   <diagram name="Página-1" id="oSTfT7jeTgy9XI2y8ly9">
     <mxGraphModel dx="567" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,16 +47,16 @@
           <mxGeometry y="148" width="490" height="150" as="geometry" />
         </mxCell>
         <mxCell id="H7Jf5DhdHRIc8OerrFZY-14" value="+ FicharioFuncionario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="690" width="410" height="448" as="geometry" />
+          <mxGeometry x="70" y="690" width="410" height="300" as="geometry" />
         </mxCell>
         <mxCell id="H7Jf5DhdHRIc8OerrFZY-15" value="- func[ ] : Funcionario&lt;br&gt;- cont : int&lt;br&gt;- sc : Scanner&lt;br&gt;- pos : int&lt;br&gt;- resp : int&lt;br&gt;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H7Jf5DhdHRIc8OerrFZY-14">
-          <mxGeometry y="26" width="410" height="174" as="geometry" />
+          <mxGeometry y="26" width="410" height="94" as="geometry" />
         </mxCell>
         <mxCell id="H7Jf5DhdHRIc8OerrFZY-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="H7Jf5DhdHRIc8OerrFZY-14">
-          <mxGeometry y="200" width="410" height="8" as="geometry" />
+          <mxGeometry y="120" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="H7Jf5DhdHRIc8OerrFZY-17" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H7Jf5DhdHRIc8OerrFZY-14">
-          <mxGeometry y="208" width="410" height="240" as="geometry" />
+        <mxCell id="H7Jf5DhdHRIc8OerrFZY-17" value="+ FicharioFuncionario(f [ ] : Funcionario)&lt;br&gt;+ inserir ( ) : void&lt;br&gt;+ excluir ( ) : void&lt;br&gt;+ alterar ( ) : void&lt;br&gt;+ consultar ( ) : void&lt;br&gt;+ relatorio ( ) : void&lt;br&gt;+ relatorioComFilhos ( ) : void&lt;br&gt;+ imprime (f : Funcionario) : void&lt;br&gt;+ imprimeComFilhos ( f : Funcionario) : void&lt;br&gt;+ imprimirFilho( f : Filho ) : void&lt;br&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="H7Jf5DhdHRIc8OerrFZY-14">
+          <mxGeometry y="128" width="410" height="172" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
