@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T19:03:53.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="oGzQNqu2-_Ae6ChdlfFm" type="github"><diagram name="Página-1" id="y9r4fpH-43b_tr-uIKqR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-15T19:07:54.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="P5kiL5sADH-vOVixYj8Y" version="21.0.6" type="github">
+  <diagram name="Página-1" id="y9r4fpH-43b_tr-uIKqR">
+    <mxGraphModel dx="886" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9WBIUvlMxbKuP12MLTkK-2" value="Livros" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9WBIUvlMxbKuP12MLTkK-4" value="-&amp;nbsp; int isbn;&lt;br&gt;- String titulo;&lt;br&gt;- String autor;&lt;br&gt;- String editora;&lt;br&gt;- int ano;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="9WBIUvlMxbKuP12MLTkK-2">
+          <mxGeometry y="29" width="170" height="121" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
