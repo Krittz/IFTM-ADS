@@ -1,9 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T17:24:02.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.2" etag="-aDmF0WQnAOE0PsqvV8H" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T17:29:36.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="cBsG4IEKFafSmAgl6IZ5" version="21.1.2" type="github">
   <diagram name="Página-1" id="3KbWWW6eqDyuZk2_HcvK">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ntqfwKHA3DI0clkx1cvz-1" value="Processador" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ntqfwKHA3DI0clkx1cvz-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" target="ntqfwKHA3DI0clkx1cvz-4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ntqfwKHA3DI0clkx1cvz-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;entryX=0.5;entryY=0.5;endSize=6;strokeWidth=1;sketch=0;" edge="1" target="ntqfwKHA3DI0clkx1cvz-4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ntqfwKHA3DI0clkx1cvz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.12;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ntqfwKHA3DI0clkx1cvz-4" target="ntqfwKHA3DI0clkx1cvz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ntqfwKHA3DI0clkx1cvz-4" value="Entrada" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;resizable=0;points=[];outlineConnect=0;sketch=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ntqfwKHA3DI0clkx1cvz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ntqfwKHA3DI0clkx1cvz-14" target="ntqfwKHA3DI0clkx1cvz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ntqfwKHA3DI0clkx1cvz-14" value="&lt;br&gt;" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=top;sketch=0;rotation=-180;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;verticalAlign=bottom;horizontal=1;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="215" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ntqfwKHA3DI0clkx1cvz-18" value="Saída" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="80" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
