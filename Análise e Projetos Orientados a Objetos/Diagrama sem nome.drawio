@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T17:07:38.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.2" etag="fnLBU9MKtCxaOUVOnP4o" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T17:11:28.658Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jGRlovGCALtfn4HzUsPf" version="21.1.2" type="github">
   <diagram name="Página-1" id="taPQsJin8YTKpNe1YkOq">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AATQaK_s3ocSRWAN_mgN-4" target="AATQaK_s3ocSRWAN_mgN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AATQaK_s3ocSRWAN_mgN-4" target="AATQaK_s3ocSRWAN_mgN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AATQaK_s3ocSRWAN_mgN-4" target="AATQaK_s3ocSRWAN_mgN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AATQaK_s3ocSRWAN_mgN-4" target="AATQaK_s3ocSRWAN_mgN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AATQaK_s3ocSRWAN_mgN-4" target="AATQaK_s3ocSRWAN_mgN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-4" value="Palavras.exe&lt;br&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-5" value="Format.dll&lt;br&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-6" value="JanelasComuns.dll&lt;br&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-7" value="Palavras.hlp&lt;br&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/128x128/mimetypes/txt.png" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-8" value="Palavras.ini&lt;br&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/128x128/mimetypes/txt.png" vertex="1" parent="1">
+          <mxGeometry x="630" y="231" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="AATQaK_s3ocSRWAN_mgN-9" value="Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
