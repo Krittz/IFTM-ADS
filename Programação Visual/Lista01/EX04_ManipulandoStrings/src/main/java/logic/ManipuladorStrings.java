@@ -13,6 +13,8 @@ import java.util.regex.Pattern;
  */
 public class ManipuladorStrings {
 
+    private String texto;
+
     private String entradaOriginal;
     private String saidaInverter;
     private boolean saidaPalindromo;
@@ -26,7 +28,8 @@ public class ManipuladorStrings {
 
     }
 
-    public ManipuladorStrings(String entradaOriginal, String saidaInverter, boolean saidaPalindromo, int saidaTamanho, int saidaVogais, int saidaConsoantes, String saidaCriptografada, String saidaDescriptografada) {
+    public ManipuladorStrings(String texto, String entradaOriginal, String saidaInverter, boolean saidaPalindromo, int saidaTamanho, int saidaVogais, int saidaConsoantes, String saidaCriptografada, String saidaDescriptografada) {
+        this.texto = texto;
         this.entradaOriginal = entradaOriginal;
         this.saidaInverter = saidaInverter;
         this.saidaPalindromo = saidaPalindromo;
@@ -59,19 +62,57 @@ public class ManipuladorStrings {
         String regex = "[aeiouAEIOU]";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(entradaOriginal);
-        while(m.find()){
-           saidaVogais++; 
+        while (m.find()) {
+            saidaVogais++;
         }
     }
-    
-    public void consoantes(){
+
+    public void consoantes() {
         saidaConsoantes = 0;
-        String regex="[^aeiouAEIOU]";
+        String regex = "[^aeiouAEIOU]";
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(entradaOriginal);
-        while(m.find()){
+        while (m.find()) {
             saidaConsoantes++;
         }
+    }
+
+    public String criptografar(int chave) {
+        StringBuilder strb = new StringBuilder();
+        int charCriptografado;
+
+        String textoFiltrado = texto.replaceAll("[^a-zA-Z]", "");
+        System.out.println("-> " + textoFiltrado);
+
+        for (int i = 0; i < textoFiltrado.length(); i++) {
+            int ch = textoFiltrado.charAt(i);
+
+            if ((ch >= 65 && ch <= 90 && (ch + chave) > 90) || (ch >= 97 && (ch + chave) > 122)) {
+                charCriptografado = ch + chave - 26;
+            } else {
+                charCriptografado = ch + chave;
+            }
+
+            strb.append((char) charCriptografado);
+        }
+        return strb.toString();
+    }
+
+    public String descriptografar(int chave) {
+        StringBuilder strb = new StringBuilder();
+        int charCriptografado;
+        String textoFiltrado = texto.replaceAll("[^a-zA-Z]", "");
+
+        for (int i = 0; i < textoFiltrado.length(); i++) {
+            int ch = textoFiltrado.charAt(i);
+            if ((ch >= 65 && ch <= 90 && (ch - chave) < 65) || (ch >= 97 && ch <= 122 && (ch - chave) < 97)) {
+                charCriptografado = ch - chave + 26;
+            } else {
+                charCriptografado = ch - chave;
+            }
+            strb.append((char) charCriptografado);
+        }
+        return strb.toString();
     }
 
     public String getEntradaOriginal() {
@@ -136,6 +177,14 @@ public class ManipuladorStrings {
 
     public void setSaidaPalindromo(boolean saidaPalindromo) {
         this.saidaPalindromo = saidaPalindromo;
+    }
+
+    public String getTexto() {
+        return texto;
+    }
+
+    public void setTexto(String texto) {
+        this.texto = texto;
     }
 
 }

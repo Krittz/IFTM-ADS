@@ -53,41 +53,6 @@
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="outputInverter" max="32767" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="btnInverter" min="-2" pref="54" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="outputTamanho" max="32767" attributes="0"/>
-                                              <Component id="outputPalindromo" max="32767" attributes="0"/>
-                                              <Component id="outputVogais" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="outputConsoantes" max="32767" attributes="0"/>
-                                              <Component id="outputCriptografar" max="32767" attributes="0"/>
-                                              <Component id="outputDescriptografar" max="32767" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Group type="103" groupAlignment="1" attributes="0">
-                                                      <Component id="btnConsoantes" min="-2" pref="54" max="-2" attributes="0"/>
-                                                      <Component id="btnVogais" min="-2" pref="54" max="-2" attributes="0"/>
-                                                      <Component id="btnCriptografar" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
-                                                      <Component id="btnDescriptografar" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="btnTamanho" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
-                                                      <Component id="btnPalindromo" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace min="-2" pref="202" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                      </Group>
                                       <Group type="102" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
@@ -109,6 +74,35 @@
                                               </Group>
                                           </Group>
                                           <EmptySpace min="0" pref="8" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="outputInverter" max="32767" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="btnInverter" min="-2" pref="54" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="outputTamanho" max="32767" attributes="0"/>
+                                                      <Component id="outputPalindromo" max="32767" attributes="0"/>
+                                                      <Component id="outputVogais" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="outputConsoantes" max="32767" attributes="0"/>
+                                                      <Component id="outputCriptografar" max="32767" attributes="0"/>
+                                                      <Component id="outputDescriptografar" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="btnConsoantes" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
+                                                      <Component id="btnVogais" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
+                                                      <Component id="btnCriptografar" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
+                                                      <Component id="btnDescriptografar" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
+                                                      <Component id="btnTamanho" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
+                                                      <Component id="btnPalindromo" alignment="1" min="-2" pref="54" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="202" pref="202" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -462,6 +456,9 @@
             <Property name="enabled" type="boolean" value="false"/>
             <Property name="opaque" type="boolean" value="true"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCriptografarActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>

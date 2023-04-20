@@ -186,6 +186,11 @@ public class ManipularStrings extends javax.swing.JFrame {
         btnCriptografar.setText("OK");
         btnCriptografar.setEnabled(false);
         btnCriptografar.setOpaque(true);
+        btnCriptografar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCriptografarActionPerformed(evt);
+            }
+        });
 
         jLabel8.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
@@ -235,33 +240,6 @@ public class ManipularStrings extends javax.swing.JFrame {
                             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                                 .addContainerGap()
                                 .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
-                                        .addComponent(outputInverter)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(btnInverter, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(202, 202, 202))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
-                                        .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(outputTamanho)
-                                            .addComponent(outputPalindromo)
-                                            .addComponent(outputVogais, javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(outputConsoantes)
-                                            .addComponent(outputCriptografar)
-                                            .addComponent(outputDescriptografar))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
-                                                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                    .addComponent(btnConsoantes, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(btnVogais, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(btnCriptografar, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(btnDescriptografar, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addGap(202, 202, 202))
-                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
-                                                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(btnTamanho, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(btnPalindromo, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addGap(202, 202, 202))))
                                     .addGroup(kGradientPanel1Layout.createSequentialGroup()
                                         .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel4)
@@ -278,7 +256,30 @@ public class ManipularStrings extends javax.swing.JFrame {
                                                     .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                         .addComponent(jLabel9)
                                                         .addComponent(input, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                                        .addGap(0, 8, Short.MAX_VALUE))))
+                                        .addGap(0, 8, Short.MAX_VALUE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
+                                        .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
+                                                .addComponent(outputInverter)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(btnInverter, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, kGradientPanel1Layout.createSequentialGroup()
+                                                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                    .addComponent(outputTamanho)
+                                                    .addComponent(outputPalindromo)
+                                                    .addComponent(outputVogais, javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(outputConsoantes)
+                                                    .addComponent(outputCriptografar)
+                                                    .addComponent(outputDescriptografar))
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(kGradientPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(btnConsoantes, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(btnVogais, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(btnCriptografar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(btnDescriptografar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(btnTamanho, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(btnPalindromo, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addGap(202, 202, 202))))
                             .addGroup(kGradientPanel1Layout.createSequentialGroup()
                                 .addGap(125, 125, 125)
                                 .addComponent(jLabel1)))
@@ -406,8 +407,30 @@ public class ManipularStrings extends javax.swing.JFrame {
     }//GEN-LAST:event_btnConsoantesActionPerformed
 
     private void btnDescriptografarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDescriptografarActionPerformed
-        
+        manipulador.setTexto(input.getText());
+        int chave = definirValorDaChaveCriptografica();
+        String resultado = manipulador.descriptografar(chave);
+        outputDescriptografar.setText(String.valueOf(resultado));
     }//GEN-LAST:event_btnDescriptografarActionPerformed
+
+    private void btnCriptografarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCriptografarActionPerformed
+        manipulador.setTexto(input.getText());
+        int chave = definirValorDaChaveCriptografica();
+        String resultado = manipulador.criptografar(chave);
+        outputCriptografar.setText(String.valueOf(resultado));
+    }//GEN-LAST:event_btnCriptografarActionPerformed
+    private int definirValorDaChaveCriptografica() {
+        int chave = 0;
+        String resposta = JOptionPane.showInputDialog(this, "Digite um valor númerico e inteiro para a chave de criptografia", "Chave de Criptografia", JOptionPane.QUESTION_MESSAGE);
+        try {
+            chave = Integer.parseInt(resposta);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(rootPane, "A chave deve ser um valor numerico inteiro", "Chave inválida", JOptionPane.ERROR_MESSAGE);
+            System.out.println(e.getMessage());
+        }
+
+        return chave;
+    }
 
     /**
      * @param args the command line arguments
