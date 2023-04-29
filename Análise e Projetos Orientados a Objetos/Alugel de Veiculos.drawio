@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-29T23:14:23.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="EJC_S9KWIMVYVgtbzAab" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-29T23:15:33.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="E6E3dF4thSQzlPCxKqxS" version="21.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,6 +224,20 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="330" y="910" as="sourcePoint" />
             <mxPoint x="670" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8IIEaYP_Zu2a2hEZr9M-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="x8IIEaYP_Zu2a2hEZr9M-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8IIEaYP_Zu2a2hEZr9M-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="x8IIEaYP_Zu2a2hEZr9M-47" target="ydLJZ0o-GAoaOCMRVPOB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="785" />
+              <mxPoint x="250" y="403" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="x8IIEaYP_Zu2a2hEZr9M-47" value="&amp;lt;&amp;lt; Interface &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;Ficharios" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
