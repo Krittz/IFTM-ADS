@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+}
+:root {
+    font-size: 62.5%;
+    --primary-color: #6a6a6a;
+    --bg-color: #25242b;
+    --detail-color: #00e5ff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100%;
+    font-size: 1.6rem;
+    background-color: #130f1e;
+}
+.nav-item .nav-link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 1rem;
+}
+.nav-item a {
+    font-size: 1.5rem;
+}
+.nav-item a i {
+    font-size: 2.6rem;
+}
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formulary {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.title h1 {
+    color: var(--detail-color);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.title h1 span {
+    color: #ffffff;
+}
+.formulary form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.formulary .inp {
+    background-color: rgba(25, 24, 30, 0.6);
+    width: 20rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 2.6rem;
+    padding: 0 0.5rem;
+    color: var(--primary-color);
+    gap: 1rem;
+    box-shadow: inset 0 -0.2rem 0 var(--detail-color);
+}
+
+.formulary .inp input{
+    color: var(--primary-color);
+    background-color: transparent;
+    float: right;
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.formulary button {
+    width: 16rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    background-color: var(--detail-color);
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0.5rem 1rem black;
+
+}
