@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --nav-height: 3.75rem;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.4rem;
+  background: rgb(5, 2, 51);
+}
+/*============== Nav Bar============== */
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: var(--nav-height);
+  background: rgb(6, 0, 29);
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  gap: 5rem;
+  flex-direction: row;
+}
+nav ul li {
+  padding: 0.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Arial';
+  font-weight: 900;
+  color: white;
+}
+nav ul li:hover {
+  border-radius: 2.5rem;
+  box-shadow: 0 0 10px #00aeff;
+}
+/*============Header============*/
+
+.top-img img {
+  width: 100%;
+  position: fixed;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.titulo_principal {
+  width: 100%;
+  height: 6.25rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(15, 4, 26, 0.288);
+  text-align: center;
+  align-items: center;
+}
+.titulo_principal h1 {
+  color: white;
+  font-family: 'Arial';
+  font-size: 1.8rem;
+  text-shadow: 0rem 0.1rem 0.2rem blueviolet;
+}
+#hr-animado hr {
+    width: 100%;
+    height: 4.2rem;
+    background-image: linear-gradient(
+      to right,
+      #000000,
+      #fc0000,
+      #fffb00,
+      #17ff02,
+      #00dcfd,
+      #ff00e9
+    );
+    border: 2px solid #000000;
+    background-size: 200% 200%;
+    animation: change_bg 5s ease-in-out infinite;
+  }
+/*============== Content ============== */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(45deg, rgb(59, 0, 88) 20%, rgb(2, 7, 56) 80%);
+}
+.container .cards {
+  width: 50rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  background-color: rgba(0, 0, 0, 0.568);
+  box-shadow: 0 10px 10px rgba(110, 1, 199, 0.664);
+}
+.wrapper {
+  background-image: url(./imagens/abraba.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50rem;
+  height: 100%;
+}
+
+.container .cards p {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial';
+  color: white;
+  text-shadow: 1px 0.2rem 0rem rgb(0, 0, 0);
+  font-weight: bold;
+
+  margin: 1rem;
+}
+.container img {
+  border-radius: 0.3rem;
+}
+.cartao {
+  width: 25rem;
+}
+
+.cartao button {
+  font-family: Arial;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  width: 9rem;
+  height: 2rem;
+  border: 0.063rem solid blueviolet;
+  border-radius: 1.5rem;
+  text-transform: uppercase;
+}
+.cartao button:hover {
+  background-image: linear-gradient(to right, #ff00e9, #00dcfd);
+  animation: change_bg 2s ease-in-out infinite;
+  background-size: 200% 200%;
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  height: 6.25rem;
+  bottom: 0;
+
+  position: relative;
+  z-index: 2;
+
+  color: white;
+
+  background-color: black;
+}
+.rodape {
+  background: linear-gradient(
+    90deg,
+    rgb(104, 4, 154, 0.151) 10%,
+    rgba(44, 9, 121, 0.151) 35%,
+    rgba(84, 26, 176, 0.151) 55%,
+    rgba(0, 14, 170, 0.151) 89%
+  );
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Arial';
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 0.2rem 0rem rgb(0, 0, 0);
+  gap: 3rem;
+}
+.tecnologias {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5rem;
+}
+.tec-icons {
+  display: flex;
+  gap: 1rem;
+}
+.tecnologias h3 {
+  margin-top: 0;
+  font-style: normal;
+  font-size: 1rem;
+}
+.tecnologias hr {
+  width: 10rem;
+  height: 0.1rem;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ff00e9,
+    #a580ff,
+    #00aeff,
+    #00caff,
+    #00dcfd
+  );
+  border: none;
+}
+.social-links {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5rem;
+}
+.social-links h3 {
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.social-links hr {
+  width: 10rem;
+  height: 0.1rem;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ff00e9,
+    #a580ff,
+    #00aeff,
+    #00caff,
+    #00dcfd
+  );
+  border: none;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.social-icons a {
+  color: white;
+  text-decoration: none;
+}
+
+.contato {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5rem;
+}
+.contato-button button {
+  width: 7rem;
+  height: 2rem;
+  background: none;
+  border: 0.0625rem solid #00aeff;
+  border-radius: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.contato-button button:hover {
+  background-color: blueviolet;
+}
+
+.contato h3 {
+  margin-top: 0;
+  font-style: normal;
+  font-size: 1rem;
+}
+.contato hr {
+  width: 10rem;
+  height: 0.1rem;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ff00e9,
+    #a580ff,
+    #00aeff,
+    #00caff,
+    #00dcfd
+  );
+  border: none;
+}
+
+/*============== Sobre ============== */
+#taca{
+    width: 40rem;
+    
+}
+/*============== Área de Contato ============== */
+.contato-area{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.contato-area form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    width: 50rem;
+}
+
+.contato-area form input{
+    width: 20rem;
+    height: 4rem;
+
+    color: white;    
+    text-align: center;
+    font-size: 1rem;
+
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #00aeff;
+    background-color: transparent;    
+   
+}
+.contato-area form textarea{
+    width: 20rem;
+    height: 10rem;
+
+    color: white;    
+    text-align: center;
+    padding: .7rem;
+    font-size: 1rem;
+
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #00aeff;
+    background-color: transparent;    
+   
+}
+.contato-area form input:focus,.contato-area form textarea:focus{
+    outline: none;
+    
+    background-color: #042a3b69;
+    box-shadow: 0 0 1rem rgb(84, 0, 240);
+}
+.contato-area form button{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, #ff00e9, #2600fd);
+}
+.contato-area form button:hover{
+    animation: change_bg 3s ease-in-out infinite;
+    box-shadow: 0 0 1rem rgb(255, 255, 255);
+}
+
+.contato-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.contato-icons a{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.contato-area hr{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    margin-left: 5%;
+    height: 0.1rem;
+    border-radius: 10px;
+    background-image: linear-gradient(
+        to right,
+        #ff00e9,
+        #a580ff,
+        #00aeff,
+        #00caff,
+        #00dcfd
+      );
+    border: none;
+}
+
+
+/*============== Conteudo Paginas ============== */
+
+.inicial-img{
+    margin-top: 1rem;
+    width: 46.875rem;
+}
+.container .cards table{
+    color: white;       
+    text-align: center;
+    border: 1px solid rgba(1, 204, 255, 0.459);
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 1.2rem;
+
+
+    background-size: 200% 200%;
+    background-image: linear-gradient(to right, #020202, #05063a, #000000);
+
+    animation: change_bg 5s ease-in-out infinite;
+    
+}
+table td{
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid rgba(1, 204, 255, 0.459);
+}
+
+
+/*============== Animação background ============== */
+@keyframes change_bg {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
