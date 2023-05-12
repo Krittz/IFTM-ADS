@@ -1,18 +1,7 @@
-## Getting Started
+## Design Pattern (Adapter
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto em java para exemplificar o Padrão de projeto Adaptador(Design Pattern Adapter)
 
-## Folder Structure
+## Diagrama de classe
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+<img src="https://github.com/Krittz/IFTM-ADS/blob/main/APOO(An%C3%A1lise%20de%20projetos%20orientados%20a%20objetos/DesignPatterns/mediaPlayer/MediaPlayer.jpg?raw=true" />
