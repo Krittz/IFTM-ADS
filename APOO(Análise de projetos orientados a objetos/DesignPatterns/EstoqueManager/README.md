@@ -1,18 +1,11 @@
-## Getting Started
+## Design Patterns (Facade)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto feito para exemplificar a aplicação do Padrão de projeto Fachada(Façade DesignPattern)
 
-## Folder Structure
+## Diagrama de Classes
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+<img src="https://github.com/Krittz/IFTM-ADS/blob/main/APOO(An%C3%A1lise%20de%20projetos%20orientados%20a%20objetos/DesignPatterns/EstoqueManager/EstoqueManager.jpg?raw=true" />
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
