@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T18:25:14.581Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jgOaiRVWIqS-YwHQjWYq" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T18:26:21.844Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="kf58OSJnGVXeB3GmVblI" version="21.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2492" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -177,6 +177,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ecj2fKYIJ3QafeukdgTd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="x8IIEaYP_Zu2a2hEZr9M-47" target="x8IIEaYP_Zu2a2hEZr9M-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="x8IIEaYP_Zu2a2hEZr9M-47" value="&amp;lt;&amp;lt; Interface &amp;gt;&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;Controllers" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-230" y="410" width="210" height="190" as="geometry" />
         </mxCell>
@@ -331,8 +334,8 @@
         <mxCell id="Ecj2fKYIJ3QafeukdgTd-37" value="+ listar( ) : ArrayList&amp;lt;Orcamento&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;" vertex="1" parent="Ecj2fKYIJ3QafeukdgTd-31">
           <mxGeometry y="156" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ecj2fKYIJ3QafeukdgTd-39" value="+ ControllerOrcamento" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="560" width="440" height="186" as="geometry">
+        <mxCell id="Ecj2fKYIJ3QafeukdgTd-39" value="+ ControllerVeiculo" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="710" width="440" height="186" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
