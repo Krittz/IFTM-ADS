@@ -1,59 +1,62 @@
-# Chácara MS - Centro de melhoramento genético.
+Resumo dos principais pontos do plano de negócio
+A Chácara MS é um negócio especializado na produção e venda de embriões de bovinos leiteiros da raça holandesa. Nossa missão é fornecer material genético de alta qualidade para a produção de leite, contribuindo significativamente para o melhoramento genético do rebanho bovino leiteiro do país. Com base em sólidos conhecimentos técnicos e experiência no setor, buscamos posicionar a Chácara MS como um líder reconhecido no mercado de reprodução bovina.
 
-### Resumo executivo
+Dados dos empreendedores, experiência profissional e atribuições
+Os empreendedores por trás da Chácara MS são João Silva e Maria Oliveira. João é médico veterinário formado pela Universidade Federal, com especialização em reprodução bovina. Ele acumula 10 anos de experiência trabalhando em renomados centros de inseminação artificial e laboratórios de reprodução assistida. Maria é administradora de empresas com foco em agronegócio e possui ampla experiência em gestão de propriedades rurais e negócios agropecuários. Suas principais atribuições são:
 
-    A Chácara MS é um negócio especializado na produção e venda de embriões de bovinos leiteiros de raça holandesa.
-    A nossa missão é fornecer alta qualidade de material genético para produção de leite.
-    Acreditamos que nosso negócio pode crescer rapidamente no mercado brasileiro, fazendo a diferença no melhoramento genético do rebanho bovino leiteiro do país.
+João Silva: Responsável pela seleção da genética, manejo reprodutivo e acompanhamento veterinário.
+Maria Oliveira: Responsável pela gestão administrativa, planejamento estratégico, marketing e relacionamento com os clientes.
+Dados do empreendimento
+Nome: Chácara MS
+Razão Social: Chácara MS Reprodução Bovina Ltda.
+CNPJ: 00.000.000/0000-00
+Endereço: Rua das Acácias, nº 123, Cidade, Estado
+Telefone: (00) 0000-0000
+E-mail: contato@chacarams.com.br
+Website: www.chacarams.com.br
+Missão da empresa
+A missão da Chácara MS é fornecer material genético de alta qualidade para a produção de leite, contribuindo para o melhoramento genético do rebanho bovino leiteiro do país. Buscamos oferecer embriões com características superiores, selecionados criteriosamente a partir de animais com desempenho genético comprovado. Além disso, nos dedicamos a prestar serviços de consultoria especializada em reprodução bovina, compartilhando nosso conhecimento e experiência com os clientes.
 
-### Produto e Serviços
+Setores de atividade
 
-    A chácar MS é especializada na produção e venda de embriões de bovinos leiteiros da raça holandesa. Os embriões são produzidos utilizando animais de alta qualidade racial, como doadoras de alta produção, certificadas e registradas nas associações competentes da região. Isso garante que o material genético fornecido pela chácara MS seja de alta qualidade, o que permite aos clientes melhorar a genética do seu rebanho, aumentando a produtividade e lucratividade do negócio. Além da venda de embriões, a Chácara MS também oference assistência técnica para a inseminação artificial de genética bovina, auxiliando os seus clientes em todo o processo.
+Produção de embriões de bovinos leiteiros da raça holandesa com alto potencial genético.
+Venda de embriões para produtores de leite e criadores de gado.
+Prestação de serviços de consultoria em reprodução bovina.
+Forma jurídica
+A Chácara MS é uma sociedade limitada (Ltda.), constituída de acordo com as leis e regulamentações vigentes.
 
-### Análise de Mercado
+Enquadramento tributário
 
-O mercado de melhoramento genético bovino no Brasil é bastante amplo e está em constante crescimento. Com a especialização em embriões de bovinos leiteiros da raça Holandesa, a Chácara MS tem a vantagem de ter um nicho de mercado segmentado e com grande potencial de crescimento. Isso porque muitas empresas do setor agropecuária têm demanda por material genético de alta qualidade e assegurado para melhorar a produção do rebanho. A Chácara MS pode suprir essa demanda com seus embriões de alta qualidade, tornando-se uma referência nesse mercado.
+Âmbito Federal: A empresa está enquadrada no regime do Simples Nacional, beneficiando-se de uma tributação simplificada e reduzida para micro e pequenas empresas.
+Âmbito Estadual: Estamos em conformidade com as obrigações tributárias estaduais, seguindo as regras estabelecidas pela Secretaria da Fazenda do Estado.
+Âmbito Municipal: Cumprimos as obrigações tributárias municipais e atendemos às exigências da prefeitura local.
 
-### Plano operacional
+Capital Social
+O capital social da Chácara MS é de R$ 500.000,00, dividido em cotas. João Silva possui 70% das cotas e Maria Oliveira possui 30%.
+O que é o negócio
+A Chácara MS é uma empresa especializada na produção e comercialização de embriões de bovinos leiteiros da raça holandesa. Nossos embriões são resultado de um rigoroso processo de seleção genética, utilizando animais de linhagens superiores e comprovado desempenho leiteiro. Além disso, oferecemos serviços de consultoria em reprodução bovina, auxiliando os clientes a obterem resultados mais expressivos em seus rebanhos.
 
-    A Chácara MS produz seus embriões de qualidade a partir de uma seleção de animais com padrões elevados, e por isso pode manter uma alta qualidade em seu produo. A equipe técnica da Chácara MS é especializada no processo de produção de embriões e está pronta para dar assistência técnica e suporte aos clientes em todo o processo de inseminação artificial. Essa assitência permite que os clientes compreendam todo o processo e possam aplicá-lo de forma correta, garantindo maior eficácia na reprodução do rebanho.
+Principais produtos e serviços
 
-### Plano financeiro
+Produção de embriões de bovinos leiteiros: Utilizamos as mais avançadas técnicas de reprodução assistida, como a FIV (Fertilização In Vitro) e a transferência de embriões, para produzir embriões de alta qualidade genética.
+Venda de embriões: Comercializamos embriões de bovinos da raça holandesa, oferecendo aos produtores de leite e criadores de gado a oportunidade de melhorar geneticamente seus rebanhos e aumentar a produtividade leiteira.
+Consultoria especializada em reprodução bovina: Prestamos serviços de consultoria personalizados, incluindo orientações sobre manejo reprodutivo, seleção de animais para reprodução, técnicas de inseminação artificial, monitoramento de cios e outras práticas relacionadas à reprodução bovina.
+Principais clientes
+Nossos principais clientes são:
+Produtores de leite que buscam melhorar geneticamente seus rebanhos, aumentar a produtividade e a qualidade do leite.
+Criadores de gado interessados em adquirir embriões de alta linhagem para melhoramento genético, tanto para uso próprio como para revenda.
+Proprietários de propriedades rurais e fazendas que desejam investir em reprodução bovina e obter resultados superiores em seus rebanhos leiteiros.
+Localização da empresa
+A Chácara MS está estrategicamente localizada na zona rural do município de Cidade, Estado. A propriedade possui uma área de 100 hectares, dos quais 80 hectares são destinados às instalações da chácara, como pastagens, currais, laboratórios e estruturas de apoio. A localização proporciona acesso facilitado a fornecedores, clientes e áreas de produção de insumos.
 
-A Chácara MS investiu R$500.000,00 para a abertura do negócio. No primeiro ano de operação, a empresa obteve um faturamento de R$1.200.000,00, o que demonstra a demanda existente pelo produto oferecido pela Chácara MS. Com as projeções atuais, a empresa espera alcançar um faturamento de R$10.000.000,00 após 5 anos de operação. Com uma margem de lucro de 40%, sobre o valor de venda dos embriões, a Chácara MS projeta um retorno do investimento em cerca de 3 anos.
+Montante de capital a ser investido
+Para iniciar as operações da Chácara MS, será necessário um investimento inicial de aproximadamente R$ 800.000,00. Esse valor será destinado à aquisição de terras, construção de infraestrutura, compra de equipamentos, genética de qualidade, contratação de profissionais especializados e capital de giro para os primeiros meses de atividade.
 
-### Equipe
+Faturamento mensal
+Com base em projeções e considerando a capacidade produtiva da chácara, estima-se um faturamento médio mensal de R$ 100.000,00. No entanto, esse valor pode variar de acordo com a demanda do mercado, a disponibilidade de embriões e a capacidade de atendimento da Chácara MS.
 
-    A equipe da Chácara MS é composta por um gestor geral, um técnico especializado nesse tipo de negócio, um auxiliar administrativo e um time externo de especialistas terceirizados em criação e seleção genética bovina. Essa equipe altamente qualificada permite que a empresa alcance seus objetivos de produzir embriões de alta qualidade com eficiência e eficácia, além de prestar assistência técnica adequada aos clientes.
+Lucro esperado do negócio
+Considerando os custos operacionais, a margem de lucro média esperada é de 30% sobre o faturamento mensal. No entanto, é importante ressaltar que o lucro real pode variar de acordo com fatores como variações nos custos de produção, flutuações do mercado e eficiência operacional.
 
-### Conclusão
-
-Em resumo, a Chácara MS é uma empresa especializada na produção e venda de embriões de bovinos leiteiros da raça holandesa. Com um mercado amplo e em constante crescimento no Brasil, a empresa está bem posicionada para crescer rapidamente por meio do fornecimento de embriões de qualidade. A equipe altamente qualificada e experiente da Chácara MS junto com um plano financeiro sólido e viável tornam o negócio promissor e capaz de cumprir sua missão de melhorar a genética do rebanho bovino leiteiro do país.
-
-### Principais pontos do negócio:
-
-A Chácara MS é uma empresa especializada na produção e venda de embriões de bovinos leiteiros da raça holandesa, com o objetivo de fornecer alta qualidade de material genético para a produção de leite. A empresa tem uma equipe altamente qualificada e experiente, além de oferecer assistência técnica adequada aos clientes durante todo o processo de inseminação artificial. O mercado de melhoramento genético bovino no Brasil está em constante crescimento, o que torna a Chácara MS bem posicionada para crescer rapidamente por meio do fornecimento de embriões de qualidade. Com um plano financeiro sólido e viável, a empresa projeta um retorno do investimento em cerca de 3 anos, tendo alcançado um faturamento significativo já no primeiro ano de operação e esperando chegar a R$10.000.000,00 após 5 anos.
-
-## Dados do empreendimento:
-
-Investimento inicial: R$500.000,00
-Faturamento no primeiro ano de operação: R$1.200.000,00
-Margem de lucro sobre o valor de venda dos embriões: 40%
-Projeção de faturamento após 5 anos de operação: R$10.000.000,00
-Retorno do investimento projetado para cerca de 3 anos
-Equipe composta por um gestor geral, um técnico especializado, um auxiliar administrativo e um time externo de especialistas terceirizados em criação e seleção genética bovina.
-
-## Missão da empresa:
-
-A missão da empresa Chácara MS é fornecer alta qualidade de material genético para a produção de leite por meio da produção e venda de embriões de bovinos leiteiros da raça holandesa, fazendo a diferença no melhoramento genético do rebanho bovino leiteiro do país.
-
-## Setores de atividades:
-
-Os setores de atividades da empresa Chácara MS são:
-
-Produção e venda de embriões de bovinos leiteiros da raça holandesa
-Assistência técnica para a inseminação artificial de genética bovina
-
-## Forma jurídica:
-
-A Chácara MS é uma empresa que pode ser constituída como Sociedade Empresária Limitada (Ltda), considerando que possui três sócios. A Ltda é uma modalidade jurídica em que a responsabilidade dos sócios é limitada ao capital social da empresa, ou seja, em caso de dívidas ou processos judiciais, as obrigações financeiras se limitam ao valor do capital investido na empresa. Isso significa que os bens pessoais dos sócios não são atingidos em casos de problemas financeiros da empresa. A Ltda permite maior flexibilidade na gestão da empresa e na tomada de decisões, além de ser mais atraente para investidores externos. Para se constituir como Ltda, a empresa precisa ter pelo menos dois sócios e um contrato social que defina as responsabilidades, participação e distribuição de lucros entre os sócios. No caso da Chácara MS, com três sócios, essa forma jurídica pode ser uma opção vantajosa para a gestão eficiente e segura do negócio.
+Tempo estimado para o retorno do investimento
+Com base nas projeções financeiras e considerando a margem de lucro esperada, estima-se que o período de retorno do investimento seja de aproximadamente 4 anos. No entanto, é importante ressaltar que esse prazo pode ser influenciado por diversos fatores, como a demanda do mercado, a eficiência operacional e o crescimento do negócio.
