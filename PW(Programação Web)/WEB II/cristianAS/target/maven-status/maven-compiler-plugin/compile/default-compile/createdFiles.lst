@@ -1,0 +1,6 @@
+cristianAS\logic\GenericLogic.class
+cristianAS\entity\Usuario.class
+cristianAS\bean\GenericBean.class
+cristianAS\logic\UsuarioLogic.class
+cristianAS\bean\UsuarioBean.class
+cristianAS\util\BeanUtil.class

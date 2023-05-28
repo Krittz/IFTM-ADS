@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:h="http://xmlns.jcp.org/jsf/html"
+  xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+  xmlns:p="http://primefaces.org/ui"
+>
+  <body>
+    <ui:composition template="/template.xhtml">
+      <ui:define name="container">
+        <div class="container">
+          <h:form>
+            <div class="inputs">
+              <label for="name"><i class="ph ph-user"></i></label>
+              <p:inputText id="name" value="#{usuarioBean.entidadeParanormal.nome}" />
+            </div>
+            <div class="inputs">
+              <label for="email"><i class="ph ph-at"></i></label>
+              <p:inputText id="email" value="#{usuarioBean.entidadeParanormal.email}" />
+            </div>
+            <div class="inputs">
+              <label for="cpf"><i class="ph ph-identification-card"></i></label>
+              <p:inputMask id="cpf" mask="999.999.999-99" value="#{usuarioBean.entidadeParanormal.cpf}" />
+            </div>
+
+            <div class="inputs">
+              <label for="dataNascimento"><i class="ph ph-calendar"></i></label>
+              <p:datePicker id="dataNascimento" value="#{usuarioBean.entidadeParanormal.dataNascimento}" />
+            </div>
+            <button type="submit" update="@form" action="#{usuarioBean.salvar()}">SUBMIT</button>
+          </h:form>
+        </div>
+        <div class="tabela">
+          <p:dataTable
+            value="#{usuarioBean.entidadesParanormais}"
+            var="entidadeParanormal"
+            styleClass="tabel"
+            style="font-size: 1.6rem"
+          >
+            <p:column headerText="Nome">
+              <h:outputText value="#{entidadeParanormal.nome}"></h:outputText>
+            </p:column>
+            <p:column headerText="Email">
+              <h:outputText
+                value="#{entidadeParanormal.email}"
+              ></h:outputText>
+            </p:column>
+            <p:column headerText="Cpf">
+              <h:outputText value="#{entidadeParanormal.cpf}"></h:outputText>
+            </p:column>
+            <p:column headerText="Nascimento">
+              <h:outputText value="#{entidadeParanormal.dataNascimento}"></h:outputText>
+            </p:column>
+          </p:dataTable>
+        </div>
+      </ui:define>
+    </ui:composition>
+  </body>
+</html>
