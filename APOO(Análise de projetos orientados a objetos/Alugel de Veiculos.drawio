@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T02:25:45.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OvN7PwfFf5gqjVie36EV" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T02:25:55.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yapfuBrZWl-YBcygFR2A" version="21.3.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2972" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,9 +160,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-350" y="330.0000000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-280" y="505" />
-              <mxPoint x="-280" y="339" />
-              <mxPoint x="-268" y="339" />
+              <mxPoint x="-267" y="505" />
             </Array>
           </mxGeometry>
         </mxCell>
