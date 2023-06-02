@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T02:45:34.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rGXT3WjHooW0RZVkrCHQ" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T02:47:00.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7DglDY_p51fPH8lavz8h" version="21.3.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2972" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -326,10 +326,10 @@
         <mxCell id="oD1UrkIJ_oF-gPpcjaIR-52" value="+ excluir (veiculo:Veiculo):void" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-47">
           <mxGeometry y="148" width="420" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="oD1UrkIJ_oF-gPpcjaIR-53" value="+ editar (codigo:String, nome:String, telefone:String,&#xa;endereco:String, abertura:String, fechamento:String):void" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-47">
+        <mxCell id="oD1UrkIJ_oF-gPpcjaIR-53" value="+ editar (placa:String, marca:String, modelo:String,&#xa;ano:String, diaria:double, disponivel:boolean):void" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-47">
           <mxGeometry y="190" width="420" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="oD1UrkIJ_oF-gPpcjaIR-54" value="+ buscarPorCodigo(codigo:String):Agencia" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-47">
+        <mxCell id="oD1UrkIJ_oF-gPpcjaIR-54" value="+ buscarPorPlaca(placa:String):Veiculo" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-47">
           <mxGeometry y="232" width="420" height="42" as="geometry" />
         </mxCell>
         <mxCell id="oD1UrkIJ_oF-gPpcjaIR-55" value="+ listaVazia (): boolean" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-47">
