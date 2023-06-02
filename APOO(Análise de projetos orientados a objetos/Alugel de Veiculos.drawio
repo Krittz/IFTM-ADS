@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T02:37:02.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4NHm3Cyma5FvSXD2UEVE" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T02:37:25.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VcIX4mSzSozSAQc4hG8s" version="21.3.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2972" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,10 +247,10 @@
         <mxCell id="oD1UrkIJ_oF-gPpcjaIR-29" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-27">
           <mxGeometry y="52" width="377" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="oD1UrkIJ_oF-gPpcjaIR-30" value="+ Pagamento ( pagamentos: ArrayList&lt;Pagamento&gt;)" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-27">
+        <mxCell id="oD1UrkIJ_oF-gPpcjaIR-30" value="+ Cliente ( clientes: ArrayList&lt;Clientes&gt;)" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-27">
           <mxGeometry y="64" width="377" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="oD1UrkIJ_oF-gPpcjaIR-31" value="+ cadastrar (pagamento:Pagamento):void" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-27">
+        <mxCell id="oD1UrkIJ_oF-gPpcjaIR-31" value="+ cadastrar (cliente:Clientes):void" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-27">
           <mxGeometry y="106" width="377" height="42" as="geometry" />
         </mxCell>
         <mxCell id="oD1UrkIJ_oF-gPpcjaIR-32" value="+ excluir (pagamento:Pagamento):void" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontStyle=0;fontSize=16;" vertex="1" parent="oD1UrkIJ_oF-gPpcjaIR-27">
