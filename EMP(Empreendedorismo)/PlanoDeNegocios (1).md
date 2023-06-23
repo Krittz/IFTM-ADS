@@ -171,3 +171,10 @@ Parcerias estratégicas: estabelecimento de parcerias com agropecuárias, cooper
 E-commerce: desenvolvimento de uma plataforma online para venda dos embriões e contratação dos serviços de consultoria, proporcionando conveniência e facilidade de acesso aos clientes.
 
 Essas estratégias de marketing visam posicionar a Chácara MS como uma referência no mercado de reprodução bovina, destacando a qualidade genética dos embriões, a expertise em consultoria e o compromisso em oferecer soluções personalizadas para os clientes.
+
+### Plano Operacional
+
+*Layout*
+
+![Layout](./terreo.png)
+
