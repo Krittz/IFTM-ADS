@@ -1,4 +1,3 @@
-
 ## CHÁCARA MS REPRODUÇÃO BOVINA LTDA.
 
 ### Resumo dos principais pontos do plano de negócio
@@ -84,16 +83,15 @@ Considerando os custos operacionais, a margem de lucro média esperada é de 30%
 
 Com base nas projeções financeiras e considerando a margem de lucro esperada, estima-se que o período de retorno do investimento seja de aproximadamente 4 anos. No entanto, é importante ressaltar que esse prazo pode ser influenciado por diversos fatores, como a demanda do mercado, a eficiência operacional e o crescimento do negócio.
 
-
 ### Fonte de Recursos
 
 A Chácara MS se fincancia principalmente por meio de recursos próprios, investidos pelos sócios. Esses investimentos iniciais permitiram, constuir infraestrutura, comprar equipamentos, contratar profissionais especializados. Utilizar capital próprio oferece controle e autonomia aos empreendedores, além de maior flexibilidade para tomar decisões estratégicas.
 
 ### Análise de Mercado
 
-## Clientes 
+## Clientes
 
-*Pessoa Física* 
+_Pessoa Física_
 
 Faixa etária: Os clientes são, em sua maioria, adultos entre 25 e 50 anos.
 Distribuição entre homens e mulheres: Existe um equilíbrio entre homens e mulheres como clientes.
@@ -103,7 +101,7 @@ Faixa de renda: Apresentam uma faixa de renda média a alta.
 Nível de escolaridade: Variado, com predominância de pessoas com ensino médio completo.
 Localização residencial: Concentrados em áreas rurais e regiões próximas à chácara.
 
-*Pessoa Jurídica* 
+_Pessoa Jurídica_
 
 Ramo de atuação: São produtores de leite, criadores de gado e fazendeiros.
 Produtos ou serviços oferecidos: Produção e comercialização de leite e produtos derivados.
@@ -135,7 +133,6 @@ Localização dos clientes: Os clientes estão dispersos principalmente nas áre
 Alcance geográfico: O foco inicial é atender clientes dentro do estado, buscando estabelecer uma base sólida no mercado local.
 Visibilidade da empresa: A localização estratégica da chácara, bem como a divulgação efetiva da empresa por meio de canais de marketing adequados, permitirá que os clientes encontrem a Chácara MS com facilidade.
 
-
 ### Estudo de concorrentes
 
 A Chácara MS possui uma posição privilegiada na região, pois não enfrenta concorrência direta de serviços similares. Isso se deve ao grande déficit de oferta na área, criando uma oportunidade única para a empresa se destacar como líder no mercado de reprodução bovina e venda de embriões de bovinos leiteiros. A falta de concorrência permite à Chácara MS estabelecer-se como referência e conquistar uma base sólida de clientes, enquanto constrói uma reputação sólida e fideliza seus clientes. Essa vantagem competitiva também facilita a expansão da empresa para regiões próximas, ampliando seu alcance e impacto no mercado.
@@ -146,25 +143,25 @@ A Chácara MS possui terras próprias e produz a maioria dos insumos necessário
 
 ### Plano de Marketing
 
-*Principais produtos e serviços* 
+_Principais produtos e serviços_
 
 Produção de embriões de bovinos leiteiros da raça holandesa com alto potencial genético.
 Venda de embriões de bovinos leiteiros da raça holandesa.
 Prestação de serviços de consultoria especializada em reprodução bovina.
 
-*Preço*
+_Preço_
 
 Os preços dos embriões de bovinos leiteiros serão estabelecidos com base na qualidade genética e nas características individuais de cada embrião.
 A consultoria especializada em reprodução bovina será oferecida por meio de pacotes personalizados, com preços definidos de acordo com a complexidade e abrangência dos serviços.
 
-*Estratégias promocionais*
+_Estratégias promocionais_
 
 Participação em eventos e feiras do setor pecuário para apresentação dos produtos e serviços.
 Divulgação por meio de anúncios em revistas especializadas, jornais locais e meios digitais.
 Utilização das redes sociais para compartilhar informações sobre a empresa, seus produtos e serviços, além de oferecer conteúdo relevante sobre reprodução bovina.
 Programa de indicação: incentivar os clientes satisfeitos a indicarem a Chácara MS para outros produtores e criadores de gado, oferecendo benefícios e descontos especiais.
 
-*Estrutura de comercialização*
+_Estrutura de comercialização_
 
 Vendas diretas: a Chácara MS estabelecerá contato direto com os clientes interessados em adquirir embriões de bovinos leiteiros, oferecendo um atendimento personalizado.
 Parcerias estratégicas: estabelecimento de parcerias com agropecuárias, cooperativas e outros canais de distribuição para ampliar a visibilidade e o alcance dos produtos.
@@ -174,7 +171,96 @@ Essas estratégias de marketing visam posicionar a Chácara MS como uma referên
 
 ### Plano Operacional
 
-*Layout*
+_Layout_
 
 ![Layout](./terreo.png)
 
+_Capacidade produtiva/comercial/serviços_
+
+A capacidade produtiva da Chácara MS Reprodução Bovina Ltda. será dimensionada de acordo com a infraestrutura disponível e a demanda do mercado. Estimaremos nossa capacidade de produção com base nos seguintes aspectos:
+
+**Produção de Sêmen:**
+Implementaremos um programa de coleta de sêmen dos reprodutores selecionados, levando em consideração a qualidade genética, saúde e conformação física. A capacidade produtiva será estabelecida com base na quantidade de sêmen que pode ser coletado, processado e armazenado adequadamente. Para isso, contaremos com uma equipe especializada em coleta e processamento de sêmen, bem como com equipamentos modernos e tecnologicamente avançados.
+
+**Inseminação Artificial:**
+Nossa capacidade de serviços de inseminação artificial será projetada levando em conta o número de animais que podemos atender simultaneamente, considerando o tempo necessário para a realização do procedimento. Com base na equipe técnica disponível e nas instalações adequadas para o manejo dos animais, estabeleceremos metas de atendimento e dimensionaremos nossa capacidade produtiva.
+
+**Transferência de Embriões:**
+Caso seja aplicável e solicitado pelos clientes, ofereceremos o serviço de transferência de embriões. Para isso, determinaremos nossa capacidade produtiva considerando o número de embriões disponíveis, o tempo necessário para realizar o procedimento e a disponibilidade de receptoras adequadas. Nossa equipe especializada em transferência de embriões garantirá a eficiência e o sucesso desse serviço.
+
+**Comercialização de Produtos e Serviços:**
+Além dos serviços de reprodução bovina, comercializaremos produtos relacionados, como sêmen de reprodutores de alta qualidade genética e embriões selecionados. Estabeleceremos parcerias estratégicas com distribuidores e empresas do setor para alcançar um amplo mercado. Nossa capacidade comercial será projetada de acordo com a demanda estimada, considerando a disponibilidade dos produtos e a capacidade de entrega.
+
+É importante ressaltar que, para estimar nossa capacidade produtiva e comercial, consideraremos fatores como o tipo de produto ou serviço oferecido, as instalações e equipamentos disponíveis, a disponibilidade financeira, o fornecimento de insumos e materiais, bem como o tamanho e as oscilações sazonais do mercado.
+
+Com uma capacidade produtiva e comercial bem definida, a Chácara MS Reprodução Bovina Ltda. poderá atender às necessidades dos criadores de gado, garantindo a qualidade e eficiência em todos os processos reprodutivos e fortalecendo sua posição no mercado.
+
+_Processos operacionais_
+
+**Localização e Infraestrutura:**
+
+A Chácara MS Reprodução Bovina Ltda. estará localizada em uma área estratégica para facilitar o acesso dos criadores de gado da região. Nossas instalações contarão com os seguintes espaços:
+Área de manejo: Será destinada ao manejo dos animais, com currais, bretes, troncos de contenção e áreas de isolamento.
+
+- Laboratório de reprodução: Contará com equipamentos modernos e adequados para a realização de técnicas de inseminação artificial e transferência de embriões.
+- Estoque de materiais: Espaço dedicado ao armazenamento de insumos, materiais e equipamentos necessários para as atividades de reprodução bovina.
+
+- Escritório administrativo: Será o local de trabalho da equipe administrativa, com computadores, telefones e demais recursos necessários para a gestão do negócio.
+
+  **Processos Operacionais:**
+
+  Os processos operacionais da Chácara MS Reprodução Bovina Ltda. incluirão as seguintes etapas:
+  Recepção e identificação dos animais: Ao receber os animais, faremos a identificação individual de cada um, registrando informações relevantes para o acompanhamento do processo reprodutivo.
+
+  - Seleção e preparação dos reprodutores: Realizaremos a seleção criteriosa dos reprodutores, levando em consideração critérios genéticos, saúde e conformação física. Os reprodutores serão devidamente preparados para o processo de coleta de sêmen.
+
+  - Coleta e processamento do sêmen: A coleta do sêmen será realizada de forma segura e higiênica, seguindo os protocolos estabelecidos. O sêmen coletado será processado, avaliado e armazenado adequadamente.
+
+  - Inseminação artificial: Utilizaremos técnicas avançadas de inseminação artificial para transferir o sêmen dos reprodutores selecionados para as fêmeas em cio. Todo o procedimento será feito por profissionais especializados.
+
+  - Transferência de embriões: Quando aplicável, realizaremos a transferência de embriões, utilizando embriões de alta qualidade genética e garantindo as condições ideais para a implantação no útero das receptoras.
+
+  - Monitoramento e acompanhamento: Durante todo o processo, faremos um rigoroso monitoramento e acompanhamento dos animais, registrando informações relevantes sobre a evolução do processo reprodutivo e a saúde dos animais.
+
+    **Recursos Humanos:**
+
+  A equipe da Chácara MS Reprodução Bovina Ltda. será composta por profissionais qualificados e experientes, incluindo:
+
+  - Médicos veterinários especializados em reprodução bovina;
+
+  - Técnicos em inseminação artificial e transferência de embriões;
+
+  - Colaboradores administrativos para auxiliar nas atividades burocráticas e de gestão do negócio.
+
+  - Fornecedores:
+    Estabeleceremos parcerias estratégicas com fornecedores confiáveis e de qualidade, garantindo o suprimento dos seguintes itens:
+
+    - Materiais e equipamentos de reprodução bovina, como sêmen, embriões, botijões de nitrogênio líquido, materiais de inseminação artificial, entre outros;
+    - Insumos para alimentação e cuidados com os animais, como rações, suplementos nutricionais, medicamentos veterinários, entre outros.
+
+    - Controle de Qualidade:
+      A Chácara MS Reprodução Bovina Ltda. terá um sistema de controle de qualidade rigoroso, garantindo a excelência em todos os processos relacionados à reprodução bovina. Serão realizados testes, avaliações e auditorias periódicas para assegurar que todos os padrões e normas sejam cumpridos.
+
+  _Cronograma de Atividades:_
+
+  Será elaborado um cronograma de atividades que contemplará todas as etapas do processo reprodutivo, desde a recepção dos animais até a entrega dos resultados aos clientes. Esse cronograma será fundamental para a organização e o cumprimento dos prazos estabelecidos.
+  Com um plano operacional bem estruturado e executado, a Chácara MS Reprodução Bovina Ltda. garantirá a eficiência, qualidade e segurança em todas as atividades de reprodução bovina, proporcionando aos criadores de gado a oportunidade de melhorar geneticamente seus rebanhos.
+
+  _Necessidade de pessoal_
+
+A Chácara MS Reprodução Bovina Ltda. reconhece a importância de contar com uma equipe qualificada e comprometida para o sucesso de suas operações. A seguir, apresentamos a necessidade de pessoal em diferentes áreas-chave:
+
+- Gerência:
+  Será designado um gerente geral para supervisionar todas as atividades operacionais da chácara. O gerente será responsável por liderar a equipe, tomar decisões estratégicas, gerenciar recursos financeiros e garantir o cumprimento dos objetivos estabelecidos.
+
+- Equipe Técnica:
+  Contaremos com uma equipe técnica especializada, composta por médicos veterinários, zootecnistas e profissionais capacitados em reprodução bovina. Essa equipe será responsável por realizar as coletas de sêmen, realizar os procedimentos de inseminação artificial e transferência de embriões, realizar exames de saúde nos animais, monitorar o ciclo reprodutivo, entre outras atividades relacionadas à reprodução bovina.
+
+- Equipe de Manejo:
+  Uma equipe de manejo de animais será responsável por cuidar dos reprodutores, receptoras e demais animais presentes na chácara. Essa equipe será encarregada de alimentar os animais, realizar a limpeza dos recintos, cuidar da saúde e bem-estar dos animais, além de auxiliar nos procedimentos de coleta de sêmen, inseminação artificial e transferência de embriões.
+
+- Equipe Administrativa:
+  Para garantir o bom funcionamento dos processos administrativos e financeiros, contaremos com profissionais especializados em áreas como contabilidade, recursos humanos, compras e vendas. Essa equipe será responsável por cuidar da gestão financeira, realizar o controle de estoque, gerenciar as transações comerciais, lidar com fornecedores e clientes, entre outras atividades administrativas.
+
+- Suporte Técnico e Manutenção:
+  Para garantir o pleno funcionamento dos equipamentos e das instalações, será necessário contar com profissionais de suporte técnico e manutenção. Essa equipe será responsável por realizar a manutenção preventiva e corretiva dos equipamentos utilizados na coleta de sêmen, inseminação artificial, transferência de embriões, bem como cuidar das instalações físicas da chácara.
