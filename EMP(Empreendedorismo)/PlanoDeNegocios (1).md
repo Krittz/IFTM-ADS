@@ -264,3 +264,151 @@ A Chácara MS Reprodução Bovina Ltda. reconhece a importância de contar com u
 
 - Suporte Técnico e Manutenção:
   Para garantir o pleno funcionamento dos equipamentos e das instalações, será necessário contar com profissionais de suporte técnico e manutenção. Essa equipe será responsável por realizar a manutenção preventiva e corretiva dos equipamentos utilizados na coleta de sêmen, inseminação artificial, transferência de embriões, bem como cuidar das instalações físicas da chácara.
+
+### Plano Financeiro
+
+**Investimento Total**
+
+O investimento total necessário para que a Chácara MS Reprodução Bovina Ltda. comece a operar é composto por três elementos principais: investimentos fixos, capital de giro e investimentos pré-operacionais.
+
+_Investimentos Fixos_
+
+- Terras e instalações: R$ 500.000,00
+- Equipamentos e maquinários especializados: R$ 300.000,00
+- Total de investimentos fixos: R$ 800.000,00
+
+_Capital de Giro_
+
+- Compra de alimentos para os animais: R$ 100.000,00
+- Pagamento de salários: R$ 50.000,00
+- Custos administrativos: R$ 30.000,00
+- Despesas de manutenção: R$ 20.000,00
+- Total de capital de giro: R$ 200.000,00
+
+_Investimentos Pré-Operacionais_
+
+- Despesas legais e consultorias especializadas: R$ 50.000,00
+- Registro da empresa e obtenção de licenças: R$ 20.000,00
+- Total de investimentos pré-operacionais: R$ 70.000,00
+
+**Estimativa do Estoque Inicial**
+
+_Alimentos para os animais_
+
+- Ração: 5 toneladas
+- Silagem: 2 toneladas
+- Suplementos minerais: 500 kg
+- Sal mineral: 1.500 kg
+
+_Materiaisi de uso diário_
+
+- Produtos de limpeza: 20 unidades de cada tipo
+- Ferramentas agrícolas: 5 unidades de cada tipo
+
+_Medicamentos veterinários_
+
+- Antibióticos: 50 ampolas
+- Vermífugos: 100 doses
+
+**Caixa mínimo**
+
+O caixa mínimo é o valor necessário para garantir a liquidez da empresa, ou seja, é o montante de recursos financeiros que deve ser mantido disponível para arcar com despesas operacionais e imprevistos durante um determinado período. Para a Chácara MS Reprodução Bovina Ltda., estima-se que o caixa mínimo seja de R$ 50.000,00.
+
+Esse valor é calculado levando em consideração os gastos fixos mensais, como pagamento de funcionários, contas de água, energia, telefone, internet, entre outros, bem como as despesas variáveis relacionadas à compra de insumos, manutenção das instalações e eventuais necessidades emergenciais.
+
+**Investimentos Pré-Operacionais**
+
+A seguir, são apresentadas as estimativas de investimentos pré-operacionais para a Chácara MS:
+
+- Despesas de Legalização: Estima-se que serão necessários R$ 10.000,00 para cobrir despesas relacionadas à legalização da empresa, tais como registros, obtenção de licenças e alvarás, taxas e honorários advocatícios.
+
+- Obras Civis e/ou Reformas: Com o objetivo de adequar as instalações para o funcionamento da chácara, estima-se um investimento de R$ 20.000,00 em obras civis e/ou reformas. Isso inclui a construção ou adequação de cercas, currais, estábulos, galpões e demais estruturas necessárias para a reprodução bovina.
+
+- Divulgação: Para promover a chácara e atrair clientes, será necessário investir em ações de divulgação. Estima-se um montante de R$ 5.000,00 para cobrir despesas com a criação de um website, produção de materiais de marketing, anúncios em mídias locais e outras estratégias de comunicação.
+
+- Cursos e Treinamentos: Considerando a importância do conhecimento técnico e atualização constante na área da reprodução bovina, estima-se um investimento de R$ 8.000,00 em cursos e treinamentos para os funcionários da chácara. Isso inclui participação em workshops, cursos específicos da área e capacitação em boas práticas de manejo.
+
+- Outras Despesas: Além das despesas mencionadas acima, é importante reservar um valor adicional para outras despesas pré-operacionais que possam surgir, como honorários de consultoria, despesas com viagens para visitas técnicas, aquisição de softwares especializados, entre outros. Estima-se um montante de R$ 7.000,00 para essas outras despesas.
+
+**Investimento total (Resumo)**
+
+O investimento total necessário para que a Chácara MS Reprodução Bovina Ltda. inicie suas operações é composto por três elementos principais: investimentos fixos, capital de giro e investimentos pré-operacionais. Abaixo está um resumo dos valores estimados para cada um desses componentes:
+
+- Investimentos Fixos: O investimento em ativos fixos refere-se aos recursos financeiros destinados à aquisição de equipamentos, maquinários, instalações e demais itens necessários para a operação da chácara. Com base nas estimativas, o investimento fixo é de R$ 200.000,00.
+
+- Capital de Giro: O capital de giro é o montante necessário para cobrir as despesas operacionais e assegurar a continuidade das atividades da empresa durante os primeiros meses de operação. Levando em consideração a projeção das despesas operacionais mensais, estima-se que o capital de giro necessário seja de R$ 80.000,00.
+
+- Investimentos Pré-operacionais: Os investimentos pré-operacionais incluem despesas de legalização, obras civis e/ou reformas, divulgação, cursos e treinamentos, bem como outras despesas relacionadas ao preparo do ambiente de negócios. Com base nas estimativas anteriores, o investimento pré-operacional totaliza R$ 50.000,00.
+
+Portanto, o investimento total para a Chácara MS Reprodução Bovina Ltda. é a soma dos investimentos fixos, do capital de giro e dos investimentos pré-operacionais, resultando em um montante de R$ 330.000,00.
+
+**Estimativa de Faturamento Mensal**
+
+Preço Médio de Venda: Estabelecemos um preço médio de venda de R$ 5.000,00 por animal reprodutor.
+
+Capacidade Produtiva: Suponhamos que a chácara possua uma capacidade produtiva para comercializar 10 animais reprodutores por mês.
+
+Com base nessas premissas, a estimativa do faturamento mensal pode ser calculada multiplicando o preço médio de venda pelo número de unidades vendidas:
+
+Faturamento Mensal = Preço Médio de Venda x Unidades Vendidas
+
+Faturamento Mensal = R$ 5.000,00 x 10
+
+Faturamento Mensal = R$ 50.000,00
+
+Portanto, de acordo com as premissas adotadas, a estimativa do faturamento mensal da Chácara MS Reprodução Bovina Ltda. seria de aproximadamente R$ 50.000,00.
+
+Vale ressaltar que essa é apenas uma estimativa e os valores podem variar de acordo com fatores como sazonalidade, demanda do mercado, estratégias de precificação, entre outros.
+
+**Ponto de Equilíbrio**
+
+O cálculo do Ponto de Equilíbrio é realizado da seguinte forma:
+
+Ponto de Equilíbrio = Custos Fixos / (Preço de Venda por Unidade - Custos Variáveis por Unidade)
+
+Suponhamos que a Chácara MS Reprodução Bovina Ltda. tenha um custo fixo mensal de R$ 20.000,00 e um custo variável por unidade de R$ 10,00. O preço de venda por unidade é de R$ 50,00.
+
+Ponto de Equilíbrio = R$ 20.000,00 / (R$ 50,00 - R$ 10,00)
+
+Ponto de Equilíbrio = R$ 20.000,00 / R$ 40,00
+
+Ponto de Equilíbrio = 500 unidades
+
+Isso significa que a Chácara MS Reprodução Bovina Ltda. precisa vender pelo menos 500 unidades de seus produtos ou serviços para cobrir todos os seus custos e atingir o ponto de equilíbrio. A partir dessa quantidade de vendas, qualquer venda adicional gerará lucro para a empresa.
+
+**Lucratividade**
+
+Lucratividade = (R$ 50.000,00 / R$ 300.000,00) x 100
+
+Lucratividade = 16,67%
+
+Isso significa que a Chácara MS Reprodução Bovina Ltda. teve uma lucratividade de 16,67% no período analisado. Essa porcentagem indica que a empresa obteve um retorno de aproximadamente 16,67% sobre cada real de receita gerada.
+
+**Rentabilidade**
+
+- Retorno sobre o investimento(ROI)
+  A Chácara MS Reprodução Bovina Ltda. obteve um lucro líquido de R$ 100.000,00 e o investimento total realizado foi de R$ 500.000,00, o cálculo do ROI seria:
+
+ROI = (R$ 100.000,00 / R$ 500.000,00) x 100 = 20%
+
+Isso significa que o retorno sobre o investimento da Chácara MS Reprodução Bovina Ltda. foi de 20%. Para cada real investido, houve um retorno de 20 centavos.
+
+- Margem de lucro
+
+A receita total da Chácara MS Reprodução Bovina Ltda. foi de R$ 800.000,00, o cálculo da margem de lucro seria:
+
+Margem de Lucro = (R$ 100.000,00 / R$ 800.000,00) x 100 = 12,5%
+
+Isso significa que a margem de lucro da Chácara MS Reprodução Bovina Ltda. foi de 12,5%. A cada real de receita gerada, 12,5 centavos foram convertidos em lucro líquido.
+
+**Prazo de retorno do investimento**
+
+Prazo de Retorno do Investimento = Investimento Total / Lucro Líquido Mensal
+
+Investimento Total = R$ 330.000,00
+
+Prazo de Retorno do Investimento = R$ 330.000,00 / R$ 20.000,00
+
+Prazo de Retorno do Investimento = 16,5 meses
+
+Portanto, com base nas informações fornecidas, estima-se que a Chácara MS Reprodução Bovina Ltda. leve aproximadamente 16,5 meses para recuperar o investimento total realizado. Isso significa que, após esse período, os lucros gerados serão suficientes para cobrir o valor investido.
