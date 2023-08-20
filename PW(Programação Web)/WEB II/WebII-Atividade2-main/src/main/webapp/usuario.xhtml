@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://xmlns.jcp.org/jsf/html"
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui"
+        
+    xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:body>
+        <ui:composition template="/template.xhtml">
+            <ui:define name="container">
+                <section class="formularioEntradas">
+                    <!--<h1>Cadastro de Usuários</h1>-->
+                    <h:form>
+                        <div class="inputs">
+                            <label for="nome" class="lbl"
+                                   ><i class="ph ph-user"></i> Nome:</label>
+                            <p:inputText id="nome" styleClass="entrada" value="#{usuarioBean.entity.nome}" />
+                        </div>
+                        <div class="inputs">
+                            <label for="cpf" class="lbl"
+                                   ><i class="ph ph-credit-card"></i> CPF:</label
+                            >
+                            <p:inputMask
+                                id="cpf"
+                                mask="999.999.999-99"
+                                styleClass="entrada"
+                                value="#{usuarioBean.entity.cpf}"
+                                />
+                        </div>
+                        <div class="inputs">
+                            <label for="email" class="lbl"
+                                   ><i class="ph ph-at"></i> E-mail:</label
+                            >
+                            <p:inputText id="email" styleClass="entrada" value="#{usuarioBean.entity.email}" />
+                        </div>
+                        <div class="inputs">
+                            <label for="nascimento" class="lbl"
+                                   ><i class="ph ph-calendar"></i> Nascimento:</label
+                            >
+                            <p:inputMask
+                                id="nascimento"
+                                mask="99/99/9999"
+                                styleClass="entrada"
+                                value="#{usuarioBean.entity.nascimento}">
+                                <f:convertDateTime pattern="dd/MM/y" type="localDate"></f:convertDateTime>
+                            </p:inputMask>
+                        </div>
+                        <p:commandButton
+                            value="Enviar"
+                            styleClass="ui-button-outlined ui-button-help"
+                            update="@form frmlista"
+                            actionListener="#{usuarioBean.salvar()}"
+                            />
+                    </h:form>
+                </section>
+                <section class="tabelas">
+                    <h:form id="frmlista">
+                        <div class="card">
+                            <p:dataTable value="#{usuarioBean.entitys}" var="user" styleClass="tabelaUsuarios">
+                                <p:column headerText="ID" styleClass="tabelaUsuarios">
+                                    <h:outputText value="#{user.id}" />
+                                </p:column>
+
+                                <p:column headerText="NOME" styleClass="tabelaUsuarios">
+                                    <h:outputText value="#{user.nome}" />
+                                </p:column>
+
+                                <p:column headerText="CPF" styleClass="tabelaUsuarios">
+                                    <h:outputText value="#{user.cpf}" />
+                                </p:column>
+
+                                <p:column headerText="EMAIL" styleClass="tabelaUsuarios">
+                                    <h:outputText value="#{user.email}" />
+                                </p:column>
+                                <p:column headerText="NASC" styleClass="tabelaUsuarios">
+                                    <h:outputText value="#{user.nascimento}" />
+                                </p:column>
+                            </p:dataTable>
+                        </div>
+                    </h:form>
+                </section>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>

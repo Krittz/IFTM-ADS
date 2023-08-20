@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c7f6c2e4-3dd8-4531-ab14-d7f5f87fad9c">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="YWdlbmNpYSAsMTUsMTUsZmNiMTI0MDgtNDk5YS00YmU4LTg2ZDItNmY3MWI0NGNhMDlmOw=="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="cpr_veiculos_automotores"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT nome,
+	telefone,
+	bairro,
+	logradouro,
+	nome,
+	telefone,
+	logradouro,
+	bairro,
+	ativo
+FROM agencia]]>
+	</queryString>
+	<field name="nome" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="nome"/>
+		<property name="com.jaspersoft.studio.field.label" value="nome"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="agencia"/>
+	</field>
+	<field name="telefone" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="telefone"/>
+		<property name="com.jaspersoft.studio.field.label" value="telefone"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="agencia"/>
+	</field>
+	<field name="logradouro" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="logradouro"/>
+		<property name="com.jaspersoft.studio.field.label" value="logradouro"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="agencia"/>
+	</field>
+	<field name="bairro" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="bairro"/>
+		<property name="com.jaspersoft.studio.field.label" value="bairro"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="agencia"/>
+	</field>
+	<group name="nome">
+		<groupExpression><![CDATA[$F{nome}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="57" splitType="Stretch">
+			<staticText>
+				<reportElement x="180" y="10" width="300" height="30" uuid="70f927ef-faab-4d6a-8d21-45b3ff1137e2"/>
+				<textElement>
+					<font fontName="Arial Black" size="20"/>
+				</textElement>
+				<text><![CDATA[Relatório De Agências]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="34" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="30" uuid="0c88e83d-35d5-4c5b-accb-bbf503c4f774">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="65230d96-4fa9-44f7-9013-d53b2c8e5493"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial Black" size="14"/>
+				</textElement>
+				<text><![CDATA[Nome]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="0" width="100" height="30" uuid="d2542bdf-d257-4c9e-93b9-82e2b477ef27">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="38975663-c275-4986-8773-74ae0871341f"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial Black" size="14"/>
+				</textElement>
+				<text><![CDATA[Telefone]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="0" width="100" height="30" uuid="1fe9128a-2457-4586-b12f-0e89061b24c7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="266e34bb-fdfe-4f92-8b8c-f6535d3edd95"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial Black" size="14"/>
+				</textElement>
+				<text><![CDATA[Bairro]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="0" width="100" height="30" uuid="e7d05ad2-4a32-4132-bd6a-e3df0347fb0b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bbb1c0cf-24ca-4305-9532-a6e45aebd034"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial Black" size="14"/>
+				</textElement>
+				<text><![CDATA[Logradouro]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="20" uuid="d718e5da-adbf-44bf-9f14-74302dcb49a5">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="65230d96-4fa9-44f7-9013-d53b2c8e5493"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{nome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="0" width="100" height="20" uuid="c553ceb6-8d70-4f4d-9dec-b6e9ddf02592">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="38975663-c275-4986-8773-74ae0871341f"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{telefone}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="200" y="0" width="100" height="20" uuid="138453b6-061f-4b9f-a84c-5bda280779f7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="266e34bb-fdfe-4f92-8b8c-f6535d3edd95"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{bairro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="0" width="100" height="20" uuid="5ba28815-7438-4ab2-8478-20797e3f8cd0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bbb1c0cf-24ca-4305-9532-a6e45aebd034"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{logradouro}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

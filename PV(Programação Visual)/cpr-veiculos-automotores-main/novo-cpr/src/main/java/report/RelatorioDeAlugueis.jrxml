@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4e2baba1-e973-4065-8e8a-40768181f73d">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="cpr_veiculos_automotores"/>
+	<queryString language="SQL">
+		<![CDATA[select * from aluguel]]>
+	</queryString>
+	<field name="codigo" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="codigo"/>
+		<property name="com.jaspersoft.studio.field.label" value="codigo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="aluguel"/>
+	</field>
+	<field name="retirada" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="retirada"/>
+		<property name="com.jaspersoft.studio.field.label" value="retirada"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="aluguel"/>
+	</field>
+	<field name="devolucao" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="devolucao"/>
+		<property name="com.jaspersoft.studio.field.label" value="devolucao"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="aluguel"/>
+	</field>
+	<field name="valor" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="valor"/>
+		<property name="com.jaspersoft.studio.field.label" value="valor"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="aluguel"/>
+	</field>
+	<group name="codigo">
+		<groupExpression><![CDATA[$F{codigo}]]></groupExpression>
+	</group>
+	<group name="valor">
+		<groupExpression><![CDATA[$F{valor}]]></groupExpression>
+	</group>
+	<group name="retirada">
+		<groupExpression><![CDATA[$F{retirada}]]></groupExpression>
+	</group>
+	<group name="devolucao">
+		<groupExpression><![CDATA[$F{devolucao}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="75" splitType="Stretch">
+			<staticText>
+				<reportElement x="180" y="11" width="275" height="30" forecolor="#000000" uuid="b09b94f8-d3fa-4634-82da-ae494fca3e6b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial" size="24"/>
+				</textElement>
+				<text><![CDATA[Relatório de Alugueis]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="32" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="80" height="30" uuid="f95e7edf-9522-445a-9464-0bc810a649ee">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c40cf3b4-542e-4db5-8b27-e5b32d3781d3"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial Black" size="14"/>
+				</textElement>
+				<text><![CDATA[Código]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="0" width="80" height="30" uuid="6f179e89-e88c-4067-b383-0ccf4448b19d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1fd2c262-85e8-4109-ae84-903b58d82ce0"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial Black" size="14"/>
+				</textElement>
+				<text><![CDATA[Retirada]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="400" y="0" width="90" height="30" uuid="1dd11559-f320-4d8a-91d4-5e799761e1ee">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3110f763-4d87-4ce9-9e2f-712fbc75f328"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial Black" size="14"/>
+				</textElement>
+				<text><![CDATA[Devolução]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="490" y="0" width="70" height="30" uuid="780f9035-f383-47a0-8529-36683c9476f7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a627138f-b449-47f2-8d5d-389eb159e68b"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Arial Black" size="14"/>
+				</textElement>
+				<text><![CDATA[Valor]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="23" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="80" height="20" uuid="b5953f4d-c0d8-44a3-9402-0e3eed1949b3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c40cf3b4-542e-4db5-8b27-e5b32d3781d3"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{codigo}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="320" y="0" width="80" height="20" uuid="2435e215-545b-4c87-bd54-7769c69e9368">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1fd2c262-85e8-4109-ae84-903b58d82ce0"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{retirada}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="400" y="0" width="90" height="20" uuid="de15a3b8-80c8-4342-99b6-8f9641424628">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3110f763-4d87-4ce9-9e2f-712fbc75f328"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{devolucao}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="490" y="0" width="70" height="20" uuid="aa242228-5605-4e91-9288-30f2063aef8a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a627138f-b449-47f2-8d5d-389eb159e68b"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{valor}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
