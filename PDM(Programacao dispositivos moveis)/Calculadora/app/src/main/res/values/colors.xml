@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mainBlack">#15141a</color>
+    <color name="lightBg">#1d1c24</color>
+    <color name="mainGrey">#0B1422</color>
+    <color name="blue">#0011f6</color>
+    <color name="violet">#8122ff</color>
+    <color name="tourquoise">#0bffdb</color>
+    <color name="nautical">#48e3ff</color>
+
+</resources>
