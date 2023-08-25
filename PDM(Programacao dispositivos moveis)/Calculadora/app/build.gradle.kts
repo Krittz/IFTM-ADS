@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "krittz.calculadora"
+    namespace = "com.calculadora"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "krittz.calculadora"
+        applicationId = "com.calculadora"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
