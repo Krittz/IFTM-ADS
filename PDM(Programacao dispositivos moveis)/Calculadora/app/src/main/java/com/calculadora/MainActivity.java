@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnMultiply = findViewById(R.id.btnMultiply);
         Button btnClear = findViewById(R.id.btnClear);
         TextView screen = findViewById(R.id.screen);
-
+        btnEquals.setEnabled(false);
         btnClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -118,6 +118,8 @@ public class MainActivity extends AppCompatActivity {
                 x = Double.parseDouble(screen.getText().toString());
                 operation = "sum";
                 screen.setText("");
+                btnEquals.setEnabled(true);
+
             }
         });
         btnMinus.setOnClickListener(new View.OnClickListener() {
@@ -126,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
                 x = Double.parseDouble(screen.getText().toString());
                 operation = "minus";
                 screen.setText("");
+                btnEquals.setEnabled(true);
             }
         });
         btnMultiply.setOnClickListener(new View.OnClickListener() {
@@ -134,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
                 x = Double.parseDouble(screen.getText().toString());
                 operation = "multiply";
                 screen.setText("");
+                btnEquals.setEnabled(true);
             }
         });
         btnDivide.setOnClickListener(new View.OnClickListener() {
@@ -148,27 +152,39 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 screen.setText(String.valueOf(calculadora.sqrt(Double.parseDouble(screen.getText().toString()))));
+
             }
         });
         btnEquals.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                switch (operation) {
-                    case "sum":
-                        screen.setText(String.valueOf(calculadora.sum(x, Double.parseDouble(screen.getText().toString()))));
-                        break;
-                    case "minus":
-                        screen.setText(String.valueOf(calculadora.minus(x, Double.parseDouble(screen.getText().toString()))));
-                        break;
-                    case "multiply":
-                        screen.setText(String.valueOf(calculadora.multiply(x, Double.parseDouble(screen.getText().toString()))));
-                        break;
-                    case "divide":
-                        screen.setText(String.valueOf(calculadora.divide(x, Double.parseDouble(screen.getText().toString()))));
-                        break;
-                    default:
-                        screen.setText(screen.getText().toString());
-                        break;
+                if (operation.isEmpty()) {
+                    screen.setText("");
+                } else {
+
+
+                    switch (operation) {
+                        case "sum":
+                            screen.setText(String.valueOf(calculadora.sum(x, Double.parseDouble(screen.getText().toString()))));
+                            operation = "";
+                            break;
+                        case "minus":
+                            screen.setText(String.valueOf(calculadora.minus(x, Double.parseDouble(screen.getText().toString()))));
+                            operation = "";
+                            break;
+                        case "multiply":
+                            screen.setText(String.valueOf(calculadora.multiply(x, Double.parseDouble(screen.getText().toString()))));
+                            operation = "";
+                            break;
+                        case "divide":
+                            screen.setText(String.valueOf(calculadora.divide(x, Double.parseDouble(screen.getText().toString()))));
+                            operation = "";
+                            break;
+                        default:
+                            operation = "";
+                            screen.setText(screen.getText().toString());
+                            break;
+                    }
                 }
             }
         });
