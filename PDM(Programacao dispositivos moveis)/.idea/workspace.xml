@@ -9,102 +9,51 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8fb8cb8-5f72-4df8-b87f-b6ee0d370d89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/java/com/example/myapplication/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/font/advent_pro_bold.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/font/orbitron_bold.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/font/orbitron_medium.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/values/font_certs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora-PDM1-main/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/app/src/androidTest/java/krittz/calculadora/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/app/src/main/java/krittz/calculadora/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/app/src/test/java/krittz/calculadora/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="13d256f1-06bf-413d-bb38-850043b5d29f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\crist\.android\avd\Pixel_7_Pro_API_34.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\crist\.android\avd\Pixel_7_Pro_API_26.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2UTzZtWEbvcRlqNhsSrsDvelm2m" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="2UlikNLl5cjKV4TNR27J2oMZ6Au" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="Calculadora.app.main" />
+      <module name="Duas_Activities.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -169,15 +118,28 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Duas Activities" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Duas Activities" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8fb8cb8-5f72-4df8-b87f-b6ee0d370d89" name="Changes" comment="" />
-      <created>1692978416838</created>
+      <changelist id="13d256f1-06bf-413d-bb38-850043b5d29f" name="Changes" comment="" />
+      <created>1693520709428</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1692978416838</updated>
+      <updated>1693520709428</updated>
     </task>
     <servers />
   </component>
