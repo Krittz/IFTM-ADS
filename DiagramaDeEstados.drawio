@@ -1,9 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T00:52:35.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.4" etag="TyMbFkCBweDuGkvtTQ7M" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T00:57:32.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="KtBBj0jv7BwgOx7Kb8WG" version="21.7.4" type="github">
   <diagram name="Página-1" id="2IxF3ud__2uG3KJnu3_j">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" edge="1" parent="1" source="csdJ1ZWF2oI8sx-B73ug-1" target="csdJ1ZWF2oI8sx-B73ug-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-1" value="Início" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" edge="1" parent="1" source="csdJ1ZWF2oI8sx-B73ug-2" target="csdJ1ZWF2oI8sx-B73ug-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-2" value="Solicitar viagem/ Dados" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" edge="1" parent="1" source="csdJ1ZWF2oI8sx-B73ug-3" target="csdJ1ZWF2oI8sx-B73ug-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-3" value="Escolher destino&lt;br style=&quot;font-size: 14px;&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" edge="1" parent="1" source="csdJ1ZWF2oI8sx-B73ug-4" target="csdJ1ZWF2oI8sx-B73ug-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-4" value="Solicitar forma de pagamento" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" edge="1" parent="1" source="csdJ1ZWF2oI8sx-B73ug-8" target="csdJ1ZWF2oI8sx-B73ug-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-12" value="Pagamento com sucesso" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" vertex="1" connectable="0" parent="csdJ1ZWF2oI8sx-B73ug-11">
+          <mxGeometry x="0.18" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-8" value="Processar pagamento&lt;br style=&quot;font-size: 14px;&quot;&gt;(cartão/dinheiro)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" edge="1" parent="1" source="csdJ1ZWF2oI8sx-B73ug-10" target="csdJ1ZWF2oI8sx-B73ug-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-10" value="Emitir ticket" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" edge="1" parent="1" source="csdJ1ZWF2oI8sx-B73ug-13" target="csdJ1ZWF2oI8sx-B73ug-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-13" value="Aguardar retirada do ticket" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csdJ1ZWF2oI8sx-B73ug-14" value="Agradecer ao usuário" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Roboto;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRoboto;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
