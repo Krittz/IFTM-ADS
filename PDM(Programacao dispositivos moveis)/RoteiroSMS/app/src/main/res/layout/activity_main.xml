@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <EditText
+       android:layout_marginTop="40dp"
+        android:id="@+id/inputPhone"
+        android:inputType="phone"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:hint="(XX) X XXXX - XXXX"
+        android:background="@drawable/inputs_fields"
+        android:drawableStart="@drawable/phone"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textColorHint="@color/blue_light"
+        android:layout_gravity="center"
+        android:textColor="@color/blue_light"/>
+
+    <EditText
+        android:id="@+id/inputMessage"
+       android:translationY="490dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:layout_gravity="start"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/inputs_fields"
+        android:hint="Type message..."
+        android:textColorHint="@color/blue_light"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/message_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/blue_light"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSend"
+        android:translationY="370dp"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textColor="@color/blue_light"
+        android:drawableEnd="@drawable/baseline_send_24"
+        android:background="@color/background"/>
+</LinearLayout>
