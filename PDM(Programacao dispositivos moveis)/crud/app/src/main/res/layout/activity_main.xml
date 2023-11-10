@@ -4,19 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/black"
-    android:orientation="vertical">
+    android:background="@color/dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-   <androidx.appcompat.widget.AppCompatButton
-       android:layout_width="match_parent"
-       android:layout_height="50dp"
-       android:text="INSERIR"
-       android:textColor="@color/black"
-       android:background="@drawable/input_fields"
-       android:layout_margin="40dp"
-       android:onClick="inserir"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        tools:ignore="UselessParent">
 
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="280dp"
+            android:layout_height="52dp"
+            android:background="@drawable/input_fields"
+            android:drawableEnd="@drawable/baseline_search_48"
+            android:padding="10dp"
+            android:textColorHint="@color/darkDetail"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/input_fields"
+            android:backgroundTint="@color/blue"
+            android:text="@string/plusSignal"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darkDetail">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+    </LinearLayout>
 
 
 </LinearLayout>
