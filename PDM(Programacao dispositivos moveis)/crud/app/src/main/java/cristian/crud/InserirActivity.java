@@ -1,5 +1,6 @@
 package cristian.crud;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -10,13 +11,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
 public class InserirActivity extends AppCompatActivity {
-    AppCompatButton btnGravar;
+    AppCompatButton btnGravar, retriveScreen;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inserir);
         btnGravar = findViewById(R.id.btnGravar);
+        retriveScreen = findViewById(R.id.retriveScreen);
+        retriveScreen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(InserirActivity.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
         btnGravar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
