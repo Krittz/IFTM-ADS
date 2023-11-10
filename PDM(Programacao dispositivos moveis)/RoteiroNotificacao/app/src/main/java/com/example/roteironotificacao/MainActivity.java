@@ -29,7 +29,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         SharedPreferences sharedPrefs = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
-        notificationCount = sharedPrefs.getInt(NOTIFICATION_COUNT_KEY, 0);
+
+        if (getIntent().getAction() != null && getIntent().getAction().equals("NOTIFICATION_CLICKED")) {
+            notificationCount = 0;
+            SharedPreferences.Editor editor = sharedPrefs.edit();
+            editor.putInt(NOTIFICATION_COUNT_KEY, notificationCount);
+            editor.apply();
+        } else {
+            notificationCount = sharedPrefs.getInt(NOTIFICATION_COUNT_KEY, 0);
+        }
 
         AppCompatButton btnNotify = findViewById(R.id.btn);
         btnNotify.setOnClickListener(new View.OnClickListener() {
@@ -59,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
         cancelIntent.setAction("CANCEL_NOTIFICATION");
         PendingIntent cancelPendingIntent = PendingIntent.getBroadcast(this, 0, cancelIntent, PendingIntent.FLAG_CANCEL_CURRENT);
 
+        Intent mainIntent = new Intent(this, MainActivity.class);
+        mainIntent.setAction("NOTIFICATION_CLICKED");
+        mainIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        PendingIntent mainPendingIntent = PendingIntent.getActivity(this, 0, mainIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, ID_CANAL);
         notificationBuilder.setAutoCancel(true)
                 .setDefaults(Notification.DEFAULT_ALL)
@@ -66,7 +79,8 @@ public class MainActivity extends AppCompatActivity {
                 .setContentTitle("Notificações")
                 .setContentText(notificationText)
                 .setContentInfo("Info")
-                .addAction(R.drawable.ic_cancel, "Cancelar", cancelPendingIntent);
+                .addAction(R.drawable.ic_cancel, "Cancelar", cancelPendingIntent)
+                .setContentIntent(mainPendingIntent);
 
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
             return;

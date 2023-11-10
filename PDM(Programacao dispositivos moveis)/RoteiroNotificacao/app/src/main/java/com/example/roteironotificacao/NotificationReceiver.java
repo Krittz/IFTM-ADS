@@ -10,7 +10,6 @@ public class NotificationReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         if ("CANCEL_NOTIFICATION".equals(intent.getAction())) {
-
             NotificationManagerCompat.from(context).cancel(1);
         }
     }

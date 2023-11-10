@@ -1,0 +1,20 @@
+ CREATE TABLE alunos(
+	id INTEGER PRIMARY KEY,
+	nome TEXT
+);
+INSERT INTO alunos(nome) VALUES ("Alan Turing"), ("Grace Hopper"), ("Denis Ritchie"), ("Linus Torvalds"), ("Tim Berners-Lee");
+
+.TABLES;
+.SCHEMAS alunos;
+
+SELECT * FROM alunos; 
+
+.HEADERS ON; 
+
+UPDATE alunos SET nome = "James Gosling" where id = 1;
+
+
+DELETE FROM alunos WHERE id = 2;
+
+.quit; 
+
