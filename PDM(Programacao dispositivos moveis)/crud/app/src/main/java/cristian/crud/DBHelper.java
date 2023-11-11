@@ -1,15 +1,19 @@
 package cristian.crud;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import androidx.annotation.Nullable;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class DBHelper extends SQLiteOpenHelper {
 
-    public static final String NOME="contatos";
+    public static final String NOME="contatos.db";
     public static final int VERSAO = 1;
 
     public DBHelper(Context contexto){
@@ -39,5 +43,19 @@ public class DBHelper extends SQLiteOpenHelper {
         Log.d("IFTM", "Inserido o contato id: " + id);
 
         return  (int) id;
+    }
+    public List<String> getContatos(){
+        List<String> lista = new ArrayList<String>();
+
+        SQLiteDatabase db = getReadableDatabase();
+        String query = "SELECT * FROM contatos;";
+        Cursor c = db.rawQuery(query, null);
+        if(c.getCount() == 0 ) return lista;
+        c.moveToFirst();
+        do{
+            Contato contato = new Contato(c);
+            lista.add(contato.toString());
+        }while(c.moveToNext());
+        return lista;
     }
 }

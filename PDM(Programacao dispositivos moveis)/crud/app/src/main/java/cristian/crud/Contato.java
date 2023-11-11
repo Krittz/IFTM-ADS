@@ -1,6 +1,7 @@
 package cristian.crud;
 
 import android.content.ContentValues;
+import android.database.Cursor;
 
 public class Contato {
     private int id;
@@ -16,6 +17,19 @@ public class Contato {
         this.id = id;
         this.nome = nome;
         this.telefone = telefone;
+    }
+
+    public Contato(Cursor c) {
+       id = c.getInt(c.getColumnIndexOrThrow("id"));
+       nome = c.getString(c.getColumnIndexOrThrow("nome"));
+       telefone = c.getString(c.getColumnIndexOrThrow("telefone"));
+    }
+
+    @Override
+    public String toString() {
+        return
+                nome + "\n" +
+                telefone ;
     }
 
     public int getId() {
