@@ -9,7 +9,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    AppCompatButton btnLogin, btnCadastrar;
+    AppCompatButton btnLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnLogin = findViewById(R.id.btnLogin);
-        btnCadastrar = findViewById(R.id.btnCadastrar);
-
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,12 +24,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        btnCadastrar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent ic = new Intent(MainActivity.this, CadastrarActivity.class);
-                startActivity(ic);
-            }
-        });
+
     }
 }

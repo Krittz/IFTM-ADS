@@ -8,6 +8,23 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:drawableStart="@drawable/code"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/roboto_black"
+        android:letterSpacing=".1"
+        android:shadowColor="@color/black"
+        android:shadowDx="0"
+        android:shadowDy="5"
+        android:shadowRadius="3"
+        android:text="KrittZ"
+        android:textColor="@color/white"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,6 +39,7 @@
             android:background="@drawable/input_field"
             android:drawableStart="@drawable/twotone_email_24"
             android:drawablePadding="5dp"
+            android:fontFamily="@font/roboto_regular"
             android:hint="Email"
             android:padding="15dp"
             android:textColor="@color/textColor"
@@ -35,6 +53,7 @@
             android:background="@drawable/input_field"
             android:drawableStart="@drawable/twotone_password_24"
             android:drawablePadding="5dp"
+            android:fontFamily="@font/roboto_regular"
             android:hint="Senha"
             android:padding="15dp"
             android:textColor="@color/textColor"
@@ -46,6 +65,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/buttons"
+            android:fontFamily="@font/roboto_black"
             android:text="Login"
             android:textColor="@color/white"
             android:textSize="18sp"
@@ -64,6 +84,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
                 android:text="ou"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
@@ -82,6 +103,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="30dp"
             android:background="@drawable/buttons"
+            android:fontFamily="@font/roboto_black"
             android:text="Cadastrar"
             android:textColor="@color/white"
             android:textSize="18sp"
