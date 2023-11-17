@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         btnCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, CadastrarActivity.class);
-                startActivity(i);
+                Intent ic = new Intent(MainActivity.this, CadastrarActivity.class);
+                startActivity(ic);
             }
         });
     }
