@@ -20,7 +20,7 @@
         android:shadowDx="0"
         android:shadowDy="5"
         android:shadowRadius="3"
-        android:text="KrittZ"
+        android:text="@string/krittz"
         android:textColor="@color/white"
         android:textSize="44sp"
         android:textStyle="bold" />
@@ -42,7 +42,7 @@
             android:fontFamily="@font/roboto_bold"
             android:shadowColor="@color/darkDetail"
             android:shadowRadius="8"
-            android:text="Bem-Vindo!"
+            android:text="@string/bem_vindo"
             android:textColor="@color/white"
             android:textSize="26sp" />
 
@@ -55,7 +55,7 @@
             android:drawableStart="@drawable/twotone_email_24"
             android:drawablePadding="5dp"
             android:fontFamily="@font/roboto_regular"
-            android:hint="Email"
+            android:hint="@string/email"
             android:padding="15dp"
             android:textColor="@color/textColor"
             android:textColorHint="@color/textColor" />
@@ -69,7 +69,7 @@
             android:drawableStart="@drawable/twotone_password_24"
             android:drawablePadding="5dp"
             android:fontFamily="@font/roboto_regular"
-            android:hint="Senha"
+            android:hint="@string/senha"
             android:padding="15dp"
             android:textColor="@color/textColor"
             android:textColorHint="@color/textColor" />
@@ -81,7 +81,7 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/buttons"
             android:fontFamily="@font/roboto_black"
-            android:text="Login"
+            android:text="@string/login"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -100,7 +100,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_light"
-                android:text="ou"
+                android:text="@string/ou"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:translationX="15dp" />
@@ -119,7 +119,7 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/buttons"
             android:fontFamily="@font/roboto_black"
-            android:text="Cadastrar"
+            android:text="@string/cadastrar"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
