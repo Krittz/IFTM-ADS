@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SingupActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:drawableStart="@drawable/code"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/roboto_black"
+        android:letterSpacing=".1"
+        android:shadowColor="@color/black"
+        android:shadowDx="0"
+        android:shadowDy="5"
+        android:shadowRadius="3"
+        android:text="@string/krittz"
+        android:textColor="@color/white"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="30dp"
+            android:drawableEnd="@drawable/wavinghand"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:shadowColor="@color/darkDetail"
+            android:shadowRadius="8"
+            android:text="@string/cadastre_se"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signupEmail"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_field"
+            android:drawableStart="@drawable/twotone_email_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/email"
+            android:padding="15dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signupSenha"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_field"
+            android:drawableStart="@drawable/twotone_password_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/senha"
+            android:padding="15dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/signupConfirmarSenha"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/input_field"
+            android:drawableStart="@drawable/twotone_password_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="@string/confirmar_senha"
+            android:padding="15dp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignup"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/cadastrar"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center">
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="150dp"
+                android:layout_height="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/ou"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:translationX="15dp" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="150dp"
+                android:layout_height="2dp"
+                android:layout_marginStart="30dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCadastrar"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
