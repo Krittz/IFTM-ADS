@@ -13,10 +13,10 @@ public class User {
     }
 
 
-    public User(int id, Strign password, String email) {
+    public User(int id, String password, String email) {
         this.id = id;
         this.email = email;
-        setSenha(password);
+        setPassword(password);
     }
 
     public int getId() {

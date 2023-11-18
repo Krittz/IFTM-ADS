@@ -7,19 +7,19 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
-public class LoginActivity extends AppCompatActivity {
-AppCompatButton btnLogin, btnCadastrar;
+public class SignUpActivity extends AppCompatActivity {
+AppCompatButton btnLogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
-        btnLogin = findViewById(R.id.btnLogin);
-        btnCadastrar = findViewById(R.id.btnCadastrar);
+        setContentView(R.layout.signup);
 
-        btnCadastrar.setOnClickListener(new View.OnClickListener() {
+        btnLogin = findViewById(R.id.btnLogin);
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(LoginActivity.this, SignUpActivity.class);
+                Intent i = new Intent(SignUpActivity.this, LoginActivity.class);
                 startActivity(i);
             }
         });

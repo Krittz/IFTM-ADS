@@ -8,6 +8,20 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:layout_marginBottom="50dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/background"
+            android:src="@drawable/backarrow"
+            tools:ignore="ExtraText" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,6 +70,7 @@
             android:drawablePadding="5dp"
             android:fontFamily="@font/roboto_regular"
             android:hint="@string/email"
+            android:inputType="textEmailAddress"
             android:padding="15dp"
             android:textColor="@color/textColor"
             android:textColorHint="@color/textColor" />
@@ -70,6 +85,7 @@
             android:drawablePadding="5dp"
             android:fontFamily="@font/roboto_regular"
             android:hint="@string/senha"
+            android:inputType="textPassword"
             android:padding="15dp"
             android:textColor="@color/textColor"
             android:textColorHint="@color/textColor" />
