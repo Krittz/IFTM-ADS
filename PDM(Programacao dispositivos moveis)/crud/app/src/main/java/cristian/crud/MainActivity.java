@@ -39,8 +39,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadData() {
         DBHelper db = new DBHelper(getApplicationContext());
-        List<String> lista = db.getContatos();
-        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, lista);
+        List<Contato> lista = db.getContatos();
+
+        AdapterContato adaptador = new AdapterContato(lista, getApplicationContext());
+
         ListView lv = findViewById(R.id.listView);
         lv.setAdapter(adaptador);
     }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<semana xmlns:android="http://schemas.android.com/apk/res/android">
+    <dia>Domingo</dia>
+    <dia>Segunda-feira</dia>
+    <dia>Terça-feira</dia>
+    <dia>Quarta-feira</dia>
+    <dia>Quinta-feira</dia>
+    <dia>Sexta-feira</dia>
+    <dia>Sábado</dia>
+</semana>

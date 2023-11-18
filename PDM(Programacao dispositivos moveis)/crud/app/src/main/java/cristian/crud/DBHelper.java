@@ -44,8 +44,8 @@ public class DBHelper extends SQLiteOpenHelper {
 
         return  (int) id;
     }
-    public List<String> getContatos(){
-        List<String> lista = new ArrayList<String>();
+    public List<Contato> getContatos(){
+        List<Contato> lista = new ArrayList<Contato>();
 
         SQLiteDatabase db = getReadableDatabase();
         String query = "SELECT * FROM contatos;";
@@ -54,7 +54,7 @@ public class DBHelper extends SQLiteOpenHelper {
         c.moveToFirst();
         do{
             Contato contato = new Contato(c);
-            lista.add(contato.toString());
+            lista.add(contato);
         }while(c.moveToNext());
         return lista;
     }
