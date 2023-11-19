@@ -9,4 +9,6 @@
     <string name="senha">Senha</string>
     <string name="cadastre_se">Cadastre-se</string>
     <string name="confirmar_senha">Confirmar senha</string>
+    <string name="bem_vindo_a">Bem-Vindo(a),</string>
+    <string name="ltima_m_dia">Última média</string>
 </resources>

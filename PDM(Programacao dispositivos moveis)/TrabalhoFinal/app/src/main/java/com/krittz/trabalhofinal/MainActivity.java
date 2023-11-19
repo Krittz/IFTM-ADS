@@ -9,13 +9,13 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    AppCompatButton btnLogin, btnCadastrar;
+    AppCompatButton btnLogin, btnCadastrar, btnHome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        btnHome = findViewById(R.id.btnHome);
         btnLogin = findViewById(R.id.btnLogin);
         btnCadastrar = findViewById(R.id.btnCadastrar);
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -32,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
+        btnHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, HomeActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }
