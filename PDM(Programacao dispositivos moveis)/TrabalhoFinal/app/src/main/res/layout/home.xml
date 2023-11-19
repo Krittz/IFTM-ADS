@@ -7,4 +7,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
+    <lecho.lib.hellocharts.view.PieChartView
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
 </androidx.appcompat.widget.LinearLayoutCompat>
