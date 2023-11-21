@@ -98,15 +98,12 @@
 
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="320dp"
-            android:layout_height="150dp"
-            android:layout_margin="20dp"
-            android:backgroundTint="@color/darkDetail"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp">
 
-        </androidx.cardview.widget.CardView>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="300dp"
+            android:layout_height="320dp"
+            android:background="@color/darkDetail" />
 
 
         <androidx.appcompat.widget.AppCompatButton
