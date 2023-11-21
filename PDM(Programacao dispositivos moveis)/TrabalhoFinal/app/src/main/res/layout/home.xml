@@ -106,13 +106,6 @@
             app:cardCornerRadius="20dp"
             app:cardElevation="10dp">
 
-
-            <lecho.lib.hellocharts.view.PieChartView
-                android:id="@+id/chart"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-
         </androidx.cardview.widget.CardView>
 
 
