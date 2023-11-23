@@ -58,4 +58,8 @@ public class DBHelper extends SQLiteOpenHelper {
         }while(c.moveToNext());
         return lista;
     }
+
+    public void delete(int id) {
+
+    }
 }

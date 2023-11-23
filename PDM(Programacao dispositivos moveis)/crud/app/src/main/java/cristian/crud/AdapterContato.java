@@ -1,13 +1,14 @@
 package cristian.crud;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
 
@@ -16,10 +17,12 @@ import java.util.List;
 public class AdapterContato extends BaseAdapter {
     List<Contato> dados;
     LayoutInflater inflater;
+    Context contexto;
 
-    public AdapterContato(List<Contato> dados, Context contexto) {
+    public AdapterContato(List<Contato> dados, Context _contexto) {
+        this.contexto = _contexto;
         this.dados = dados;
-        this.inflater = LayoutInflater.from(contexto);
+        this.inflater = LayoutInflater.from(_contexto);
     }
 
     @Override
@@ -39,7 +42,7 @@ public class AdapterContato extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        if(view == null){
+        if (view == null) {
             view = inflater.inflate(R.layout.item_contato, null);
         }
         Contato c = dados.get(i);
@@ -53,10 +56,30 @@ public class AdapterContato extends BaseAdapter {
         btnDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("Apagar", "id = " + c.getId());
+                exibe_dialogo_apagar(c.getId());
             }
         });
-    return view;
+        return view;
     }
+
+    private void exibe_dialogo_apagar(int _id) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(contexto);
+        builder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int wich) {
+                apagar(_id);
+            }
+        });
+        builder.setMessage("Realmente apagar?").setTitle("Apagar");
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+
+    public void apagar(int id) {
+        Log.d("Apagar", "id = " + id);
+        DBHelper dbh = new DBHelper(contexto);
+        dbh.delete(id);
+    }
+
 
 }
