@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadData() {
-        DBHelper db = new DBHelper(getApplicationContext());
+        DBHelper db = new DBHelper(MainActivity.this);
         List<Contato> lista = db.getContatos();
 
         AdapterContato adaptador = new AdapterContato(lista, getApplicationContext());

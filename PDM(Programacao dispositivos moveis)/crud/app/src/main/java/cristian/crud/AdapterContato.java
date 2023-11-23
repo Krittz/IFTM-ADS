@@ -56,29 +56,40 @@ public class AdapterContato extends BaseAdapter {
         btnDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                exibe_dialogo_apagar(c.getId());
+                exibe_dialogo_apagar(c.getId(), view);
             }
         });
         return view;
     }
 
-    private void exibe_dialogo_apagar(int _id) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(contexto);
+    private void exibe_dialogo_apagar(int _id, View view) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(view.getRootView().getContext());
         builder.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialogInterface, int wich) {
+            public void onClick(DialogInterface dialogInterface, int which) {
                 apagar(_id);
             }
         });
+
+        builder.setNegativeButton("Não", null);
         builder.setMessage("Realmente apagar?").setTitle("Apagar");
         AlertDialog dialog = builder.create();
         dialog.show();
+
+
     }
 
     public void apagar(int id) {
         Log.d("Apagar", "id = " + id);
         DBHelper dbh = new DBHelper(contexto);
         dbh.delete(id);
+        for (int i = 0; i < dados.size(); i++) {
+            if (dados.get(i).getId() == id) {
+                dados.remove(i);
+                break;
+            }
+        }
+        notifyDataSetChanged();
     }
 
 
