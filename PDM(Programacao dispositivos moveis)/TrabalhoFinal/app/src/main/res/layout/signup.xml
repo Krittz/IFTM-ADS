@@ -21,6 +21,7 @@
             android:backgroundTint="@color/background"
             android:src="@drawable/backarrow"
             tools:ignore="ExtraText" />
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.AppCompatTextView

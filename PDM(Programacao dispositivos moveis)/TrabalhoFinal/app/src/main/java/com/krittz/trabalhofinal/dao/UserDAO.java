@@ -26,15 +26,25 @@ public class UserDAO {
     public long registerUser(User u) {
         long id = -1;
         try {
-            database.beginTransaction();
-            id = database.insert(DBHelper.TABLE_USER, null, u.getValues());
-            Log.d("KrittZ", "Usuário (" + id + ") cadastrado!");
-            database.setTransactionSuccessful();
+            open();
+
+            if (database != null) {
+                database.beginTransaction();
+                id = database.insert(DBHelper.TABLE_USER, null, u.getValues());
+                Log.d("KrittZ", "Usuário (" + id + ") cadastrado!");
+                database.setTransactionSuccessful();
+            } else {
+                Log.e("KrittZ", "Banco de dados não foi aberto corretamente");
+            }
         } catch (Exception e) {
-            Log.e("KrittZ", "Erro ao cadstrar usuario", e);
+            Log.e("KrittZ", "Erro ao cadastrar usuário", e);
         } finally {
-            database.endTransaction();
+            if (database != null && database.inTransaction()) {
+                database.endTransaction();
+            }
+            close();
         }
         return id;
     }
+
 }
