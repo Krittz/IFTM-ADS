@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatTextView;
 
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Description;
@@ -17,10 +18,18 @@ import com.github.mikephil.charting.data.LineDataSet;
 import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
+    AppCompatTextView userName;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
+
+
+        String userEmail = getIntent().getStringExtra("USER_EMAIL");
+        String username = userEmail.split("@")[0];
+        userName = findViewById(R.id.nomeUsuario);
+        userName.setText(username.substring(0,1).toUpperCase() + username.substring(1));
 
         LineChart lineChart = findViewById(R.id.chart);
 

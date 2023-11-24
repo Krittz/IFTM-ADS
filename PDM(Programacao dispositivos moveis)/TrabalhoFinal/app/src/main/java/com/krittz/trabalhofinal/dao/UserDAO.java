@@ -1,11 +1,14 @@
 package com.krittz.trabalhofinal.dao;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
 import com.krittz.trabalhofinal.model.User;
+
+import org.mindrot.jbcrypt.BCrypt;
 
 public class UserDAO {
     DBHelper dbHelper;
@@ -46,5 +49,33 @@ public class UserDAO {
         }
         return id;
     }
+
+    public String autenticar(String email, String senha) {
+        try {
+            open();
+            String[] columns = {"email", "password"};
+            String selection = "email = ?";
+            String[] selectionArgs = {email};
+
+            Cursor cursor = database.query(DBHelper.TABLE_USER, columns, selection, selectionArgs, null, null, null);
+            if (cursor != null && cursor.moveToFirst()) {
+                int passwordColumnIndex = cursor.getColumnIndex("password");
+                if (passwordColumnIndex != -1) {
+                    String hashedPassword = cursor.getString(passwordColumnIndex);
+                    if (BCrypt.checkpw(senha, hashedPassword)) {
+                        String useremail = cursor.getString(cursor.getColumnIndex("email"));
+                        return useremail;
+                    }
+                }
+            }
+            return null;
+        } catch (Exception e) {
+            Log.e("Krittz", "Erro ao autenticar usuário", e);
+        } finally {
+            close();
+        }
+        return null;
+    }
+
 
 }
