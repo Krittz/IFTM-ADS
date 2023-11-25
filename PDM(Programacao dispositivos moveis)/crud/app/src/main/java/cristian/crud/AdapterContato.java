@@ -2,6 +2,7 @@ package cristian.crud;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
 import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.widget.AppCompatImageButton;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
 
@@ -53,10 +55,21 @@ public class AdapterContato extends BaseAdapter {
         tvNumero.setText(c.getTelefone());
 
         AppCompatImageView btnDelete = (view.findViewById(R.id.btnDelete));
+        AppCompatImageButton btnEdit = (view.findViewById(R.id.btnEditar));
         btnDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 exibe_dialogo_apagar(c.getId(), view);
+            }
+        });
+        btnEdit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("IFTM", "Editar");
+                Intent i = new Intent(view.getRootView().getContext(), EditActivity.class);
+                i.putExtra("ID", c.getId());
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                view.getRootView().getContext().startActivity(i);
             }
         });
         return view;

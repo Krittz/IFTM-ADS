@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editNome"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:background="@drawable/input_fields"
+        android:backgroundTint="@color/darkDetail"
+        android:drawableStart="@drawable/sharp_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Nome:"
+        android:padding="10dp"
+        android:shadowColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editNumero"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/input_fields"
+        android:backgroundTint="@color/darkDetail"
+        android:drawableStart="@drawable/baseline_phone_24"
+        android:drawablePadding="10dp"
+        android:hint="Telefone"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSalvarEdit"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_fields"
+        android:text="Salvar"
+        android:textColor="@color/dark"
+        android:textSize="20sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

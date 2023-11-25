@@ -41,5 +41,14 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/baseline_delete_24"
-        android:translationY="30dp" />
+        android:translationY="10dp" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnEditar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/darkDetail"
+        android:src="@drawable/round_edit_24"
+        android:translationX="-50dp"
+        android:translationY="60dp" />
 </androidx.appcompat.widget.LinearLayoutCompat>
