@@ -31,7 +31,7 @@ public class EditActivity extends AppCompatActivity {
                 DBHelper dbHelper = new DBHelper(getApplicationContext());
                 String novoNome = editNome.getText().toString().trim();
                 String novoNumero = editNumero.getText().toString().trim();
-                if (TextUtils.isEmpty(novoNome) && TextUtils.isEmpty(novoNumero)) {
+                if (TextUtils.isEmpty(novoNome) || TextUtils.isEmpty(novoNumero)) {
                     finish();
                 } else {
                     Contato c = new Contato();
