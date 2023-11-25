@@ -72,4 +72,32 @@ public class DBHelper extends SQLiteOpenHelper {
         }
     }
 
+    public Contato getContato(int id) {
+        SQLiteDatabase db = getReadableDatabase();
+        try {
+            String where = "id=?";
+            String[] arg = new String[]{String.valueOf(id)};
+            String[] colunas = new String[]{"id", "nome", "telefone"};
+            Cursor cursor = db.query("contatos", colunas, where, arg, null, null, null);
+            if (cursor != null && cursor.moveToFirst()) {
+                return new Contato(cursor);
+            } else {
+                return new Contato();
+            }
+
+        } finally {
+            db.close();
+        }
+    }
+
+    public void update(Contato c) {
+        SQLiteDatabase db = getWritableDatabase();
+        try {
+            String where = "id = ?";
+            String[] arg = new String[]{String.valueOf(c.getId())};
+            db.update("contatos", c.getValues(), where, arg);
+        } finally {
+            db.close();
+        }
+    }
 }
