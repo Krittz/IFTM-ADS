@@ -2,6 +2,8 @@ package com.krittz.trabalhofinal;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatTextView;
@@ -26,10 +28,25 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.home);
 
 
-        String userEmail = getIntent().getStringExtra("USER_EMAIL");
-        String username = userEmail.split("@")[0];
-        userName = findViewById(R.id.nomeUsuario);
-        userName.setText(username.substring(0,1).toUpperCase() + username.substring(1));
+        try {
+            String userEmail = getIntent().getStringExtra("USER_EMAIL");
+
+            if (userEmail != null) {
+                String username = userEmail.split("@")[0];
+                userName = findViewById(R.id.nomeUsuario);
+                username = username.substring(0, 1).toUpperCase() + username.substring(1);
+                userName.setText(username);
+            } else {
+                Log.d("Warning", "userEmail is null");
+
+                Toast.makeText(this, "Erro ao obter o email do usuário", Toast.LENGTH_SHORT).show();
+            }
+        } catch (NullPointerException e) {
+            Log.d("Exception", Log.getStackTraceString(e));
+
+            Toast.makeText(this, "Ocorreu um erro inesperado", Toast.LENGTH_SHORT).show();
+        }
+
 
         LineChart lineChart = findViewById(R.id.chart);
 
@@ -43,36 +60,43 @@ public class HomeActivity extends AppCompatActivity {
         entries.add(new Entry(7, 32));
         int orangeColor = getColor(R.color.orange);
 
+
         LineDataSet dataSet = new LineDataSet(entries, "Consumo de Gasolina");
         dataSet.setColor(orangeColor);
         dataSet.setLineWidth(2f);
-        dataSet.setValueTextColor(Color.BLACK);
+        dataSet.setValueTextColor(Color.WHITE);
         dataSet.setValueTextSize(12f);
 
         LineData lineData = new LineData(dataSet);
 
-        // Configurar descrição (opcional)
         Description description = new Description();
+        description.setTextColor(getColor(R.color.pink));
+        description.setTextSize(11);
         description.setText("Médias de Consumo de Gasolina (últimos 7 dias)");
         lineChart.setDescription(description);
 
-        // Configurar eixos
+
         XAxis xAxis = lineChart.getXAxis();
         xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
+        xAxis.setTextColor(Color.WHITE);
+        xAxis.setTextSize(14);
 
         YAxis leftAxis = lineChart.getAxisLeft();
-        leftAxis.setAxisMinimum(0f); // Valor mínimo no eixo y
-        leftAxis.setGranularity(1f); // Espaçamento entre os valores no eixo y
+        leftAxis.setTextColor(Color.WHITE);
+        leftAxis.setTextSize(14);
+        leftAxis.setAxisMinimum(0f);
+        leftAxis.setGranularity(1f);
 
         YAxis rightAxis = lineChart.getAxisRight();
-        rightAxis.setEnabled(false); // Desativar o eixo y à direita
+        rightAxis.setEnabled(false);
 
-        // Configurar legenda
+
         Legend legend = lineChart.getLegend();
         legend.setForm(Legend.LegendForm.LINE);
         legend.setTextSize(12f);
+        legend.setTextColor(Color.WHITE);
 
-        // Adicionar dados ao gráfico
+
         lineChart.setData(lineData);
     }
 }
