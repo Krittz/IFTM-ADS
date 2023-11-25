@@ -18,7 +18,7 @@ import com.krittz.trabalhofinal.model.User;
 public class SignUpActivity extends AppCompatActivity {
     AppCompatButton btnLogin, btnSignUp;
     AppCompatEditText inputEmail, inputPass, inputConfirmPass;
-    AppCompatImageButton btnBack;
+
     UserDAO userDAO;
 
     @Override
@@ -28,17 +28,12 @@ public class SignUpActivity extends AppCompatActivity {
         userDAO = new UserDAO(this);
 
         btnLogin = findViewById(R.id.btnLogin);
-        btnBack = findViewById(R.id.btnBack);
+
         btnSignUp = findViewById(R.id.btnSignup);
         inputEmail = findViewById(R.id.signupEmail);
         inputPass = findViewById(R.id.signupSenha);
         inputConfirmPass = findViewById(R.id.signupConfirmarSenha);
-        btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
+
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

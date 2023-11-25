@@ -15,7 +15,7 @@ import com.krittz.trabalhofinal.dao.UserDAO;
 
 public class LoginActivity extends AppCompatActivity {
     AppCompatButton btnLogin, btnCadastrar;
-    AppCompatImageButton btnBack;
+
     AppCompatEditText inputEmail, inputPass;
     UserDAO userDAO;
 
@@ -26,16 +26,10 @@ public class LoginActivity extends AppCompatActivity {
         userDAO = new UserDAO(this);
         btnLogin = findViewById(R.id.btnLogin);
         btnCadastrar = findViewById(R.id.btnCadastrar);
-        btnBack = findViewById(R.id.btnBack);
+
         inputEmail = findViewById(R.id.loginEmail);
         inputPass = findViewById(R.id.loginSenha);
 
-        btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
 
         btnCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
