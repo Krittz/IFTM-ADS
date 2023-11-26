@@ -133,6 +133,8 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(HomeActivity.this, SupplyActivity.class);
                 i.putExtra("USER_EMAIL", userEmail);
+                i.putExtra("USER_ID", userId);
+                startActivity(i);
             }
         });
     }

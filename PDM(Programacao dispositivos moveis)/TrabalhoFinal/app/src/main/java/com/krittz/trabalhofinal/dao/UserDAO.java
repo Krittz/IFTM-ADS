@@ -50,15 +50,14 @@ public class UserDAO {
         return id;
     }
 
-
-    public User autenticar(String email, String senha) {
+    public User buscarPorId(int id) {
         Cursor cursor = null;
 
         try {
             open();
             String[] columns = {"id", "email", "password"};
-            String selection = "email = ?";
-            String[] selectionArgs = {email};
+            String selection = "id = ?";
+            String[] selectionArgs = {String.valueOf(id)};
 
             cursor = database.query(DBHelper.TABLE_USER, columns, selection, selectionArgs, null, null, null);
 
@@ -67,6 +66,45 @@ public class UserDAO {
                 int emailColumnIndex = cursor.getColumnIndex("email");
                 int passwordColumnIndex = cursor.getColumnIndex("password");
 
+                if (idColumnIndex != -1 && emailColumnIndex != -1 && passwordColumnIndex != -1) {
+                    int userId = cursor.getInt(idColumnIndex);
+                    String userEmail = cursor.getString(emailColumnIndex);
+                    String userPassword = cursor.getString(passwordColumnIndex);
+                    User u = new User();
+                    u.setId(userId);
+                    u.setEmail(userEmail);
+                    u.setPassword(userPassword);
+                    return u;
+
+                } else {
+                    return null;
+                }
+            } else {
+                return null;
+            }
+        } catch (SQLException e) {
+            Log.e("Find by ID", "Erro ao buscar ID", e);
+        } finally {
+            if (cursor != null && !cursor.isClosed()) {
+                cursor.close();
+            }
+            close();
+        }
+        return null;
+    }
+
+    public User autenticar(String email, String senha) {
+        Cursor cursor = null;
+        try {
+            open();
+            String[] columns = {"id", "email", "password"};
+            String selection = "email = ?";
+            String[] selectionArgs = {email};
+            cursor = database.query(DBHelper.TABLE_USER, columns, selection, selectionArgs, null, null, null);
+            if (cursor != null && cursor.moveToFirst()) {
+                int idColumnIndex = cursor.getColumnIndex("id");
+                int emailColumnIndex = cursor.getColumnIndex("email");
+                int passwordColumnIndex = cursor.getColumnIndex("password");
                 if (idColumnIndex != -1 && emailColumnIndex != -1 && passwordColumnIndex != -1) {
                     int userId = cursor.getInt(idColumnIndex);
                     String userEmail = cursor.getString(emailColumnIndex);
@@ -80,10 +118,10 @@ public class UserDAO {
                         authenticatedUser.setPassword(hashedPassword);
                         return authenticatedUser;
                     } else {
-                        return null;  // Senha incorreta
+                        return null;
                     }
                 } else {
-                    return null;  // Alguma coluna está ausente
+                    return null;
                 }
             }
         } catch (Exception e) {
@@ -95,7 +133,7 @@ public class UserDAO {
             close();
         }
 
-        return null;  // Usuário não encontrado
+        return null;
     }
 
 
