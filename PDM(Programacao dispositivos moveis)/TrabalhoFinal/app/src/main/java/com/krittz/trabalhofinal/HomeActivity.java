@@ -1,12 +1,15 @@
 package com.krittz.trabalhofinal;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.DashPathEffect;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.content.ContextCompat;
 
@@ -19,34 +22,42 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.utils.Utils;
+import com.krittz.trabalhofinal.dao.MediaDAO;
+
 
 import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
     AppCompatTextView userName;
+    AppCompatButton btnAbastecer;
+    MediaDAO mediaDAO;
+    String userEmail, userId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
+        btnAbastecer = findViewById(R.id.btnAbastecer);
 
 
         try {
-            String userEmail = getIntent().getStringExtra("USER_EMAIL");
+            userEmail = getIntent().getStringExtra("USER_EMAIL");
+            userId = getIntent().getStringExtra("USER_ID");
+
 
             if (userEmail != null) {
                 String username = userEmail.split("@")[0];
                 userName = findViewById(R.id.nomeUsuario);
                 username = username.substring(0, 1).toUpperCase() + username.substring(1);
-                userName.setText(username);
+                userName.setText(username + " ID: " + userId);
             } else {
-
-
                 Toast.makeText(this, "Erro ao obter o email do usuário", Toast.LENGTH_SHORT).show();
             }
+
+        } catch (NumberFormatException e) {
+
+            Toast.makeText(this, "Erro ao converter o ID do usuário para inteiro", Toast.LENGTH_SHORT).show();
         } catch (NullPointerException e) {
-
-
             Toast.makeText(this, "Ocorreu um erro inesperado", Toast.LENGTH_SHORT).show();
         }
 
@@ -115,5 +126,14 @@ public class HomeActivity extends AppCompatActivity {
 
 
         lineChart.setData(lineData);
+
+
+        btnAbastecer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(HomeActivity.this, SupplyActivity.class);
+                i.putExtra("USER_EMAIL", userEmail);
+            }
+        });
     }
 }

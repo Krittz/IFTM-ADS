@@ -65,7 +65,7 @@
             android:layout_width="320dp"
             android:layout_height="100dp"
             android:layout_marginTop="40dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="20dp"
             android:backgroundTint="@color/darkDetail"
             android:clickable="false"
             app:cardCornerRadius="20dp"
@@ -107,8 +107,7 @@
             android:id="@+id/chart"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:layout_margin="20dp"
-             />
+            android:layout_margin="20dp" />
 
 
         <androidx.appcompat.widget.AppCompatButton

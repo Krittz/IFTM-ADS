@@ -8,6 +8,7 @@ public class DBHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "trabalhoFinal.db";
     private static final int DB_VERSION = 1;
     public static final String TABLE_USER = "user";
+    public static final String TABLE_MEDIA = "media";
 
     public DBHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
@@ -15,9 +16,12 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String createUser_table = "CREATE TABLE user(id INT PRIMARY KEY, email TEXT NOT NULL, password TEXT NOT NULL);";
-        db.execSQL(createUser_table);
+        String createUserTable = "CREATE TABLE " + TABLE_USER + " (id INTEGER PRIMARY KEY AUTOINCREMENT, email TEXT NOT NULL, password TEXT NOT NULL);";
+        String createMediaTable = "CREATE TABLE " + TABLE_MEDIA + " (id INTEGER PRIMARY KEY AUTOINCREMENT, quilometros REAL NOT NULL, litros REAL NOT NULL, preco REAL NOT NULL, total REAL NOT NULL, idUser INTEGER, FOREIGN KEY (idUser) REFERENCES " + TABLE_USER + "(id) ON DELETE CASCADE);";
+        db.execSQL(createUserTable);
+        db.execSQL(createMediaTable);
     }
+
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {

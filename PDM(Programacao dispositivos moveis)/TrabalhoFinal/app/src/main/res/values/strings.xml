@@ -11,4 +11,8 @@
     <string name="confirmar_senha">Confirmar senha</string>
     <string name="bem_vindo_a">Bem-Vindo(a),</string>
     <string name="ltima_m_dia">Última média</string>
+    <string name="abastecimento">Abastecimento</string>
+    <string name="pre_o_por_litro">Preço por litro:</string>
+    <string name="quil_metros">Kms atuais:</string>
+    <string name="litros">Litros:</string>
 </resources>

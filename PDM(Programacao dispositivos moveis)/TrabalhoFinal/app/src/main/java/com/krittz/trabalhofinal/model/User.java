@@ -13,7 +13,7 @@ public class User {
     }
 
 
-    public User(int id, String password, String email) {
+    public User(int id, String email, String password) {
         this.id = id;
         this.email = email;
         setPassword(password);

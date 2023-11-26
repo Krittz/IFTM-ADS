@@ -50,31 +50,52 @@ public class UserDAO {
         return id;
     }
 
-    public String autenticar(String email, String senha) {
+
+    public User autenticar(String email, String senha) {
+        Cursor cursor = null;
+
         try {
             open();
-            String[] columns = {"email", "password"};
+            String[] columns = {"id", "email", "password"};
             String selection = "email = ?";
             String[] selectionArgs = {email};
 
-            Cursor cursor = database.query(DBHelper.TABLE_USER, columns, selection, selectionArgs, null, null, null);
+            cursor = database.query(DBHelper.TABLE_USER, columns, selection, selectionArgs, null, null, null);
+
             if (cursor != null && cursor.moveToFirst()) {
+                int idColumnIndex = cursor.getColumnIndex("id");
+                int emailColumnIndex = cursor.getColumnIndex("email");
                 int passwordColumnIndex = cursor.getColumnIndex("password");
-                if (passwordColumnIndex != -1) {
+
+                if (idColumnIndex != -1 && emailColumnIndex != -1 && passwordColumnIndex != -1) {
+                    int userId = cursor.getInt(idColumnIndex);
+                    String userEmail = cursor.getString(emailColumnIndex);
                     String hashedPassword = cursor.getString(passwordColumnIndex);
+                    Log.d("UserDAO", "ID: " + userId);
+                    Log.d("UserDAO", "Email:" + userEmail);
                     if (BCrypt.checkpw(senha, hashedPassword)) {
-                        String useremail = cursor.getString(cursor.getColumnIndex("email"));
-                        return useremail;
+                        User authenticatedUser = new User();
+                        authenticatedUser.setId(userId);
+                        authenticatedUser.setEmail(userEmail);
+                        authenticatedUser.setPassword(hashedPassword);
+                        return authenticatedUser;
+                    } else {
+                        return null;  // Senha incorreta
                     }
+                } else {
+                    return null;  // Alguma coluna está ausente
                 }
             }
-            return null;
         } catch (Exception e) {
             Log.e("Krittz", "Erro ao autenticar usuário", e);
         } finally {
+            if (cursor != null && !cursor.isClosed()) {
+                cursor.close();
+            }
             close();
         }
-        return null;
+
+        return null;  // Usuário não encontrado
     }
 
 
