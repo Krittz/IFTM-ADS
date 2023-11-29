@@ -23,27 +23,28 @@ import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.utils.Utils;
 import com.krittz.trabalhofinal.dao.MediaDAO;
+import com.krittz.trabalhofinal.model.Media;
 
 
 import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
-    AppCompatTextView userName;
+    AppCompatTextView userName, lastMediaTV;
     AppCompatButton btnAbastecer;
     MediaDAO mediaDAO;
-    String userEmail, userId;
+    String userEmail, userId, lastMedia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
         btnAbastecer = findViewById(R.id.btnAbastecer);
-
+        lastMediaTV = findViewById(R.id.lastMedia);
+        mediaDAO = new MediaDAO(this);
 
         try {
             userEmail = getIntent().getStringExtra("USER_EMAIL");
             userId = getIntent().getStringExtra("USER_ID");
-
 
             if (userEmail != null) {
                 String username = userEmail.split("@")[0];
@@ -61,6 +62,12 @@ public class HomeActivity extends AppCompatActivity {
             Toast.makeText(this, "Ocorreu um erro inesperado", Toast.LENGTH_SHORT).show();
         }
 
+        Media m = mediaDAO.getMediaByUserID(Integer.parseInt(userId));
+        if (m != null) {
+            lastMediaTV.setText(String.valueOf(m.getTotal()) + " Km/l");
+        } else {
+            lastMediaTV.setText("");
+        }
 
         LineChart lineChart = findViewById(R.id.chart);
 

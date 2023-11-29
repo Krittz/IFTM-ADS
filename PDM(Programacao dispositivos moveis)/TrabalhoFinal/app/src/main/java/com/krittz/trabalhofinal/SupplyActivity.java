@@ -1,5 +1,6 @@
 package com.krittz.trabalhofinal;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -65,6 +66,7 @@ public class SupplyActivity extends AppCompatActivity {
                     Log.d("MEDIAS", "Media cadastrar ID> " + m.getId() + "Total Km/L: " + m.getTotal());
                     clear();
                     finish();
+
                 }
             }
         });

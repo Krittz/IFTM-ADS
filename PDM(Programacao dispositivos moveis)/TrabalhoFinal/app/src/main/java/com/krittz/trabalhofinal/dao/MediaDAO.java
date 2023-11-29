@@ -1,6 +1,7 @@
 package com.krittz.trabalhofinal.dao;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
@@ -60,4 +61,47 @@ public class MediaDAO {
         return media;
     }
 
+    public Media getMediaByUserID(int userID) {
+        Cursor cursor = null;
+        try {
+            open();
+            String[] columns = {"id", "quilometros", "litros", "preco", "total"};
+            String selection = "idUser = ?";
+            String[] selectionArgs = {String.valueOf(userID)};
+
+            cursor = database.query(DBHelper.TABLE_MEDIA, columns, selection, selectionArgs, null, null, null);
+
+            if (cursor != null && cursor.moveToFirst()) {
+                int idColumnIndex = cursor.getColumnIndex("id");
+                int quillometrosColumnIndex = cursor.getColumnIndex("quilometros");
+                int litrosColumnIndex = cursor.getColumnIndex("litros");
+                int precoColumnIndex = cursor.getColumnIndex("preco");
+                int totalColumnIndex = cursor.getColumnIndex("total");
+                if (idColumnIndex != -1 && quillometrosColumnIndex != -1 && litrosColumnIndex != -1 && precoColumnIndex != -1 && totalColumnIndex != -1) {
+                    Media media = new Media();
+                    media.setId(cursor.getInt(idColumnIndex));
+                    media.setQuilometros(cursor.getDouble(quillometrosColumnIndex));
+                    media.setLitros(cursor.getDouble(litrosColumnIndex));
+                    media.setPreco(cursor.getDouble(precoColumnIndex));
+                    media.setTotal(cursor.getDouble(totalColumnIndex));
+                    media.setIdUser(userID);
+                    return media;
+
+                } else {
+                    return null;
+                }
+            } else {
+                return null;
+            }
+
+        } catch (SQLException e) {
+            Log.e("Find by userID", "Erro ao buscar média", e);
+        } finally {
+            if (cursor != null && !cursor.isClosed()) {
+                cursor.close();
+            }
+            close();
+        }
+        return null;
+    }
 }
