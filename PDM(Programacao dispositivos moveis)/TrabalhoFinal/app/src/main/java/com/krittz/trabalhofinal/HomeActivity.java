@@ -72,13 +72,8 @@ public class HomeActivity extends AppCompatActivity {
         LineChart lineChart = findViewById(R.id.chart);
 
         ArrayList<Entry> entries = new ArrayList<>();
-        entries.add(new Entry(1, 25));
-        entries.add(new Entry(2, 30));
-        entries.add(new Entry(3, 20));
-        entries.add(new Entry(4, 35));
-        entries.add(new Entry(5, 40));
-        entries.add(new Entry(6, 28));
-        entries.add(new Entry(7, 32));
+        entries.add(new Entry(m.getLitros().floatValue(), m.getQuilometros().floatValue()));
+
         int orangeColor = getColor(R.color.orange);
 
 

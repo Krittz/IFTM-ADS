@@ -6,6 +6,9 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import java.util.List;
+import java.util.ArrayList;
+
 import com.krittz.trabalhofinal.model.Media;
 
 public class MediaDAO {
@@ -104,4 +107,6 @@ public class MediaDAO {
         }
         return null;
     }
+
+
 }
