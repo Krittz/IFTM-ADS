@@ -70,20 +70,22 @@ public class HomeActivity extends AppCompatActivity {
         ScatterChart scatterChart = findViewById(R.id.chart);
 
         ArrayList<Entry> entries = new ArrayList<>();
+        int x = 1;
 
         for (Media media : mediaList) {
-            entries.add(new Entry(media.getLitros().floatValue() / 100, media.getQuilometros().floatValue() / 100));
+            entries.add(new Entry(x, media.getQuilometros().floatValue() / media.getLitros().floatValue()));
+            x++;
         }
 
         ScatterDataSet dataSet = new ScatterDataSet(entries, "Consumo de Gasolina");
         dataSet.setDrawIcons(false);
         dataSet.setColor(getColor(R.color.orange));
         dataSet.setScatterShape(ScatterChart.ScatterShape.CIRCLE);
-        dataSet.setScatterShapeSize(5f);
+        dataSet.setScatterShapeSize(50f);
         dataSet.setValueTextSize(14f);
         dataSet.setValueTextColor(Color.WHITE);
         dataSet.setDrawValues(true);
-
+        dataSet.setDrawHighlightIndicators(true);
         ScatterData scatterData = new ScatterData(dataSet);
 
         Description description = new Description();

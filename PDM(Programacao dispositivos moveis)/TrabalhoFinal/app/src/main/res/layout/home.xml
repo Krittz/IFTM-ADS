@@ -94,10 +94,7 @@
                 android:text="32Km/l"
                 android:textColor="@color/white"
                 android:textSize="32sp" />
-
-
         </androidx.cardview.widget.CardView>
-
 
         <com.github.mikephil.charting.charts.ScatterChart
             android:id="@+id/chart"
