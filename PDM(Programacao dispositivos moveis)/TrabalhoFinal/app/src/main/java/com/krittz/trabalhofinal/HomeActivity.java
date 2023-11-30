@@ -26,12 +26,13 @@ import com.krittz.trabalhofinal.model.Media;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
     AppCompatTextView userName, lastMediaTV;
     AppCompatButton btnAbastecer;
     MediaDAO mediaDAO;
-    String userEmail, userId, lastMedia;
+    String userEmail, userId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,13 +68,14 @@ public class HomeActivity extends AppCompatActivity {
         } else {
             lastMediaTV.setText("");
         }
-
+        List<Media> mediaList = mediaDAO.getLatestMedia(Integer.parseInt(userId));
         ScatterChart scatterChart = findViewById(R.id.chart);
 
         ArrayList<Entry> entries = new ArrayList<>();
-        entries.add(new Entry(m.getLitros().floatValue() / 100, m.getQuilometros().floatValue() / 100));
 
-        int orangeColor = getColor(R.color.orange);
+        for (Media media : mediaList) {
+            entries.add(new Entry(media.getLitros().floatValue() / 100, media.getQuilometros().floatValue() / 100));
+        }
 
         ScatterDataSet dataSet = new ScatterDataSet(entries, "Consumo de Gasolina");
         dataSet.setDrawIcons(false);
@@ -112,7 +114,6 @@ public class HomeActivity extends AppCompatActivity {
 
         scatterChart.setData(scatterData);
         scatterChart.invalidate();
-
 
 
         btnAbastecer.setOnClickListener(new View.OnClickListener() {
