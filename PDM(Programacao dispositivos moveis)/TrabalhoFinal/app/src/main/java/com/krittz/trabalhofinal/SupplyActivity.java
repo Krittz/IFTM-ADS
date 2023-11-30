@@ -65,7 +65,10 @@ public class SupplyActivity extends AppCompatActivity {
                     Media m = mediaDAO.cadastrarMedia(media);
                     Log.d("MEDIAS", "Media cadastrar ID> " + m.getId() + "Total Km/L: " + m.getTotal());
                     clear();
+                    Intent resultIntent = new Intent();
+                    setResult(RESULT_OK, resultIntent);
                     finish();
+
 
                 }
             }
