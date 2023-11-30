@@ -71,7 +71,7 @@
             app:cardCornerRadius="20dp"
             app:cardElevation="10dp">
 
-            <androidx.appcompat.widget.AppCompatEditText
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -99,7 +99,7 @@
         </androidx.cardview.widget.CardView>
 
 
-        <com.github.mikephil.charting.charts.LineChart
+        <com.github.mikephil.charting.charts.ScatterChart
             android:id="@+id/chart"
             android:layout_width="match_parent"
             android:layout_height="300dp"

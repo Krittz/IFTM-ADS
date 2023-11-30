@@ -2,8 +2,7 @@ package com.krittz.trabalhofinal;
 
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.DashPathEffect;
-import android.graphics.drawable.Drawable;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
@@ -11,17 +10,17 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatTextView;
-import androidx.core.content.ContextCompat;
 
-import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.charts.ScatterChart;
 import com.github.mikephil.charting.components.Description;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
-import com.github.mikephil.charting.utils.Utils;
+
+import com.github.mikephil.charting.data.ScatterData;
+import com.github.mikephil.charting.data.ScatterDataSet;
+
 import com.krittz.trabalhofinal.dao.MediaDAO;
 import com.krittz.trabalhofinal.model.Media;
 
@@ -50,7 +49,7 @@ public class HomeActivity extends AppCompatActivity {
                 String username = userEmail.split("@")[0];
                 userName = findViewById(R.id.nomeUsuario);
                 username = username.substring(0, 1).toUpperCase() + username.substring(1);
-                userName.setText(username + " ID: " + userId);
+                userName.setText(username);
             } else {
                 Toast.makeText(this, "Erro ao obter o email do usuário", Toast.LENGTH_SHORT).show();
             }
@@ -69,65 +68,51 @@ public class HomeActivity extends AppCompatActivity {
             lastMediaTV.setText("");
         }
 
-        LineChart lineChart = findViewById(R.id.chart);
+        ScatterChart scatterChart = findViewById(R.id.chart);
 
         ArrayList<Entry> entries = new ArrayList<>();
-        entries.add(new Entry(m.getLitros().floatValue(), m.getQuilometros().floatValue()));
+        entries.add(new Entry(m.getLitros().floatValue() / 100, m.getQuilometros().floatValue() / 100));
 
         int orangeColor = getColor(R.color.orange);
 
-
-        LineDataSet dataSet = new LineDataSet(entries, "Consumo de Gasolina");
+        ScatterDataSet dataSet = new ScatterDataSet(entries, "Consumo de Gasolina");
         dataSet.setDrawIcons(false);
-        dataSet.enableDashedLine(10f, 5f, 0f);
-        dataSet.enableDashedHighlightLine(10f, 5f, 0f);
         dataSet.setColor(getColor(R.color.orange));
-        dataSet.setCircleColor(getColor(R.color.pink));
-        dataSet.setLineWidth(2f);
-        dataSet.setCircleRadius(5f);
-        dataSet.setDrawCircleHole(false);
+        dataSet.setScatterShape(ScatterChart.ScatterShape.CIRCLE);
+        dataSet.setScatterShapeSize(5f);
         dataSet.setValueTextSize(14f);
         dataSet.setValueTextColor(Color.WHITE);
-        dataSet.setDrawFilled(true);
-        dataSet.setFormLineWidth(2f);
-        dataSet.setFormLineDashEffect(new DashPathEffect(new float[]{10f, 5f}, 0f));
-        dataSet.setFormSize(15.f);
-        if (Utils.getSDKInt() >= 18) {
-            Drawable drawable = ContextCompat.getDrawable(this, R.drawable.chart);
-            dataSet.setFillDrawable(drawable);
-        }
+        dataSet.setDrawValues(true);
 
-        LineData lineData = new LineData(dataSet);
+        ScatterData scatterData = new ScatterData(dataSet);
 
         Description description = new Description();
         description.setTextColor(getColor(R.color.white));
         description.setTextSize(11);
-        description.setText("Médias de Consumo de Gasolina (últimos 7 dias)");
-        lineChart.setDescription(description);
+        description.setText("Médias de Consumo de Combustível");
+        scatterChart.setDescription(description);
 
-
-        XAxis xAxis = lineChart.getXAxis();
+        XAxis xAxis = scatterChart.getXAxis();
         xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
         xAxis.setTextColor(getColor(R.color.orange));
         xAxis.setTextSize(14);
 
-        YAxis leftAxis = lineChart.getAxisLeft();
+        YAxis leftAxis = scatterChart.getAxisLeft();
         leftAxis.setTextColor(getColor(R.color.pink));
         leftAxis.setTextSize(14);
         leftAxis.setAxisMinimum(0f);
         leftAxis.setGranularity(1f);
 
-        YAxis rightAxis = lineChart.getAxisRight();
+        YAxis rightAxis = scatterChart.getAxisRight();
         rightAxis.setEnabled(false);
 
-
-        Legend legend = lineChart.getLegend();
-        legend.setForm(Legend.LegendForm.LINE);
+        Legend legend = scatterChart.getLegend();
         legend.setTextSize(12f);
         legend.setTextColor(Color.WHITE);
 
+        scatterChart.setData(scatterData);
+        scatterChart.invalidate();
 
-        lineChart.setData(lineData);
 
 
         btnAbastecer.setOnClickListener(new View.OnClickListener() {
