@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent cancelIntent = new Intent(this, NotificationReceiver.class);
         cancelIntent.setAction("CANCEL_NOTIFICATION");
-        PendingIntent cancelPendingIntent = PendingIntent.getBroadcast(this, 0, cancelIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+        PendingIntent cancelPendingIntent = PendingIntent.getBroadcast(this, 0, cancelIntent, PendingIntent.FLAG_CANCEL_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
         Intent mainIntent = new Intent(this, MainActivity.class);
         mainIntent.setAction("NOTIFICATION_CLICKED");

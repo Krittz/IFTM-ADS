@@ -8,7 +8,7 @@ class TestChrome(unittest.TestCase):
         assert "Congratulations!" in self.browser.title
 
     def test_page_title(self):
-        self.browser.get("http://localhost:8000/index.html")
+        self.browser.get("http://github.com")
         expected_title = "GitHub: Let’s build from here · GitHub"
         actual_title = self.browser.title
         self.assertEqual(expected_title, actual_title)

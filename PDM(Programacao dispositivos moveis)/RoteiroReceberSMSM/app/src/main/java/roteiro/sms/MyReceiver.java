@@ -28,7 +28,7 @@ public class MyReceiver extends BroadcastReceiver {
                     }
                     if (messages[0] != null) {
                         Log.d("IFTM", messages[0].getMessageBody());
-                        Intent i = new Intent("RECEBIDO_CODIGO_")
+                        Intent i = new Intent("RECEBIDO_CODIGO_");
                     }
                 }
             }
