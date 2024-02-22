@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         final TextView textView = (TextView) findViewById(R.id.text);
         RequestQueue queue = Volley.newRequestQueue(this);
 
-        String url = "http://www.cran.com.br";
+        String url = "https://www.github.com/Krittz";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
