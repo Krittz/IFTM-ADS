@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RoteiroVolley" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bg</item>
+    </style>
+
+    <style name="Theme.RoteiroVolley" parent="Base.Theme.RoteiroVolley" />
+</resources>
