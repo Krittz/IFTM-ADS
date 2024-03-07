@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void requisicao() {
         final TextView textView = (TextView) findViewById(R.id.tv);
-        String url = "https://jsonplaceholder.typicode.com/posts/1";
+        String url = "http://linuxjf.com/pdm2/usuarios/login.php";
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        textView.setText("Algo deu errado!");
+                        textView.setText("Algo deu errado!" + error.toString());
+
                     }
                 }
         );
