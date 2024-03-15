@@ -14,4 +14,38 @@ Xc >= 16 . Xa
 Xb <= 600.000
 _________________________________________________
 l = 0,30Xa + 0,25Xb + 0,20Xc
+######################################################################################################
+######################################################################################################
+Exercicio 02
+No programa de produção para o próximo periodo, uma determinada empresa
+escolheu 3 produtos, P1, P2 e P3. O quadro abaixo mostra os montantes
+solicitados por unidade na produção
+|----------------------------------------------------------------------------------|
+|produto    |Receita unidade|Custo unidade|Hr mão de obra| Hr maquina| Demanda max.|
+|-----------|---------------|-------------|--------------|-----------|-------------|
+|P1         |   310         |   100       |     6        |      12   |      800    |
+|P2         |   350         |   150       |     4        |      6    |      600    |    
+|P3         |   320         |   130       |     6        |      2    |      600    |
+|----------------------------------------------------------------------------------|
+Os preços de venda forma fixados por decisão política e as demandas foram estimadas
+tendo em vista estes preços. A empresa pode obter um suprimento de 4800 horas de mão
+de obra durante o período de processamento e pressupõe-se usar três máquinas que podem
+prover 7200 horas de trabalho.
+Estabelecer um programa de produção que maximize o lucro
 
+Variaveis de decisão
+X¹ = P1, x² = P2, X³ = P3
+
+Restrição de mão de obra
+6X¹ + 4X² + 6X³ <=4800
+
+Restrição de hora de maquina
+12X¹ + 6X² + 2X³ <=7200
+
+Variaveis de demanda
+X¹ <= 800
+x² <= 600
+X³ <= 600
+
+Função objetivo
+Z = (310 -100)X¹ + (350 - 150)X² + (320 - 130)X³
