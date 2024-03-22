@@ -1,0 +1,90 @@
+
+*** --------------------------------- ***
+::: Autor: Cristian Alves Silva      :::
+::: Disciplina: Pesquisa Operacional :::
+::: Turma: ADS - 6                   :::
+*** --------------------------------- ***
+
+Exercício 01:
+Para uma boa alimentação, o corpo necessita de vitaminas e proteínas.
+A necessidade mínima de vitamínas é de 32 uidades por dia e a de proteínas é de 36 unidades por dia.
+Uma pessoa tem disponíveis ovos e carne para se alimentar. Cada unidade de ovo
+contém 4 unidades de vitaminas e 6 unidades de proteínas. Cada unidade de carne
+contém 8 unidades de vitaminas e 6 unidades de proteínas. Cada unidade diária
+de ovos e carne que deve ser consumida para suprir as necessidades de vitaminas e proteínas com o menor custo possível?
+Cada unidade de ovo custa $2 e cada unidade de carne custa $3. Monte o 
+modelo de programação matemática para o problema proposto.
+
+Variáveis de Decisão:
+X = número de unidades de ovos a serem consumidas por dia.
+Y = número de unidades de carne a serem consumidas popr dia.
+1 -> Necessidade mínima de vitaminas:
+    4X + 8Y >=32
+2 -> Necessidade mínima de proteínas:
+    6X + 6Y >=36
+3 -> Restrições de não-negatividade:
+    X,Y >=0
+
+Função Objetivo
+Minimizar C = 2X + 3Y
+
+
+
+
+
+
+
+
+***********************************************************************
+-----------------------------------------------------------------------
+***********************************************************************
+
+Exercício 02:
+Uma empresa de componentes automotivos conduz um programa
+de treinamentos para seus operadores. Operdaores treinados
+sao utilizados como instrumentos no programa,
+na proporção de um para cada dez trainees. O programa de treinamento é 
+conduzido durante um mês.
+Sabe-se que de cada dez trainees contratados, somente sete completam
+o programa (aqueles que não completam o programa de treinamentosão dispensados).
+Os operadores treinados tambem devem cumprir suas funções usuaris de operador.
+O número de operadores treinados necessários para atender à 
+produção nos próximos três meses são:
+Janeiro: ................100
+Fevereiro: ..............150
+Março: ..................200
+Além disso, a empresa necessita de 250 operadores treinados em Abril
+Existem treinados incio do ano 130 operadores. As despesas
+mensais com salários são as seguintes:
+Cada trainee R$400,00
+Cada operador treinado ( trabalhando nas maquinas ou realizando
+treinamento) R$700,00
+Cada operador treinado ocioso R$500,00
+Deseja-se modelar o problema acima.
+Objetivo é minimizar os custos com o pessoal, 
+atendendo a demanda de pessoal da empresa
+
+Resolução: 
+1 - Número de Operadores Treinados Necessários:
+Janeiro ----- Xjan = 100
+Fevereiro --- Xfev = 150
+Março ------- Xmar = 200
+Abril ------- Xabr = 250
+
+2 - Número de Operadores Treinados no Início do ano
+Xinicial = 130
+
+3 - Número de Operadores contratados e completos
+T=0.7×T
+
+4 - Número de operadores  treinados
+Janeiro    : Xjan = 130 + 7T
+Fevereiro  : Xfev = 130 + 14T
+Março      : Xmar = 130 + 21T
+Abril      : Xabr = 130 + 28T
+
+5 - Função Objetivo
+Minimizar C = 400T + 700X  + 500(Xjan - Xfev - Xmar - Xabr + Xinicial) 
+***********************************************************************
+-----------------------------------------------------------------------
+***********************************************************************
