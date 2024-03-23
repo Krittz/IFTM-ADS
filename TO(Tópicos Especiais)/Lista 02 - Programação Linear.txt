@@ -1,8 +1,10 @@
 
 *** --------------------------------- ***
-::: Autor: Cristian Alves Silva      :::
-::: Disciplina: Pesquisa Operacional :::
-::: Turma: ADS - 6                   :::
+::: Autores: Cristian Alves Silva,    :::
+::: Pedro Henrique Neres de Souza,    :::
+::: Renato Vieira Nomelini,           :::
+::: Disciplina: Pesquisa Operacional  :::
+::: Turma: ADS - 6                    :::
 *** --------------------------------- ***
 
 Exercício 01:
