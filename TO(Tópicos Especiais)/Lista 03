@@ -11,12 +11,86 @@ Preço(R$) | 3000  | 5000  |                 |
 
 Construa o modelo matemático com o objetivo de maximizar o lucro
 
-Restrições
+Restrições:
   Liga 1 = X¹ >= 0
   Liga 2 = X² >= 0
   0,50X¹ + 0,2X² <= 16 ton
   0,25X¹ + 0,3X² <= 11 ton
   0,25X¹ + 0,5X² <= 15 ton
 
-  Maximização
+  Maximização:
     Z = 3000X¹ + 5000X²
+
+02)   Uma confecção produz dois tipos de vestido, um casual e um de festa. 
+O vestido casual consome 1m² de tecido e 2horas de trabalho, enquanto o vestido de festa
+consome 2m² de tecido e 5horas de trabalho.
+A confeccção dispões de 32m² de tecido e 72 horas de trabalho disponivies. 
+Sabendo-se que o lucro na venda do vestido casual é R$15,00 o do vestido de festa é de R$35,00.
+Em qual quantidade, cada vestido deverá ser fabricado de modo a maximizar o lucro?
+
+Restrições:
+  Casual X¹ >= 0
+  Festa  X² >= 0
+  2X¹ + 5X² <= 32
+  1X¹ + 2x² <= 72
+  
+  Maximização:
+  Z = 15X¹ + 35X² 
+
+03) Uma confeitaria produz dois tipos de bolo de chocolate: tradicional e meio amargo,
+o bolo de chocolate tradicional usa dentre outros ingredientes 0,5kg de farinha, 0,2kg de chocolate e
+4 ovos.
+Enquanto o bolo de chocolate meio amargo usa 0,4kg de farinha, 0,4kg de chocolate e 6 ovos.
+A confeitaria dispoe e 12kg de farinha, 8kg de choclate e 124 ovos, sabendo-se que o lucro na venda do bolo de 
+chocolate tradicional é de R$4,00 e do bolo de chocolate amargo é de R$5,00, em qual quantidade cada bolo 
+deveria ser produzido de modo a maximizar cada lucro
+
+Restrições:
+  Tradicional X¹ >=0
+  Meio amargo X² >=0
+
+  Farinha 0,5X¹ + 0,4X² <= 12
+  Chocolate 0,2X¹ + 0,4X² <= 8
+  Ovo 4X¹ + 6X² <= 124
+Maximização:
+  Z = 4X¹ + 5X²
+
+04) Um paciente necessita ingerir diariamente 10mg de VITAMINA A e 80mg de VITAMINA C. Essas vitaminas
+podem ser encontradas na cenoura que possíu 5mg de VITAMINA A e 230mg de VITAMNINA C  por KG
+e no espinafre, que possúi 25mg de VITAMINA A e 90mg de VITAMINA C por KG.
+Sabendo-se que o custo da cenoura é R$2,00 e o KG do espinafre é R$8,00 em qual quantidade o paciente
+deve ingerir estes alimentos de modo a suprir a ingestão minima diária de vitaminas ao menor
+custo possível?
+
+  Restrições :
+VITAMINA A X¹ >= 0
+VITAMINA C X² >= 0
+   VITAMINA A 5X¹ + 25X² >= 10
+   VITAMINA C 230X¹ + 90X² >= 80
+
+   Maximização: 
+   Z = 2X¹ + 8X²
+
+
+05) Uma siderurgica deseja combinar dois tipos de ligas metálicas, afim de criar uma nova liga
+a LIGA 1 possui 60% de  FERRO, 20% de COBRE e 10% de ZINCO e custa R$40,00 o KG, e a LIGA 2 possúi 40% de FERRO
+30% de COBRE e ZINCO, custa R$55,00 o KG. A nova liga deve conter no mínimo 30% de ferro, 20% de cobre e 15% de zinco.
+Em qual quantidade a siderurgica deve combinar essas ligas de modo que a nova liga contenha as quantidades minimas
+de cobre, ferro e zinco, ao menor custo possível?
+  
+  Restrições:
+Liga 01 X¹
+Liga 2 X²
+    Ferro 60X¹ + 40X² >= 30
+    Cobre 20X¹ + 30X² >= 20
+    Zinco 10X¹ + 30X² >= 15
+
+  Maximização:
+Z = 40X¹ + 55X²
+
+
+06) Extra - refaça o exercício 02 considerando que o lucro na venda do vestido casual é de R$15,00
+e do vestido de festa é R$25,00. A qual conclusão se chega?
+
+  Maximização: 
+ Z = 15X¹ + 25X²
