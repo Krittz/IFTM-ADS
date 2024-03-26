@@ -1,0 +1,22 @@
+01) Uma metalurgica deseja maximizar sua receita bruta. 
+A tabela a seguir ilustra a quantidade proporção de cada material na mistura para a obtenção
+ das ligas passiveis de fabricação, assim como a disponibilidade de cada matéria prima(em toneladas)
+ e os preços de venda por tonelada de cada liga.
+
+          | Liga 1| Liga 2| Disponibilidade |
+Cobre     | 0,50  | 0,2   | 16 ton          |
+Zinco     | 0,25  | 0,3   | 11 ton          |
+Chumbo    | 0,25  | 0,5   | 15 ton          |
+Preço(R$) | 3000  | 5000  |                 |
+
+Construa o modelo matemático com o objetivo de maximizar o lucro
+
+Restrições
+  Liga 1 = X¹ >= 0
+  Liga 2 = X² >= 0
+  0,50X¹ + 0,2X² <= 16 ton
+  0,25X¹ + 0,3X² <= 11 ton
+  0,25X¹ + 0,5X² <= 15 ton
+
+  Maximização
+    Z = 3000X¹ + 5000X²
