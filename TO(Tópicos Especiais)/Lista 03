@@ -68,7 +68,7 @@ VITAMINA C X² >= 0
    VITAMINA A 5X¹ + 25X² >= 10
    VITAMINA C 230X¹ + 90X² >= 80
 
-   Maximização: 
+   Minimazação: 
    Z = 2X¹ + 8X²
 
 
@@ -85,7 +85,7 @@ Liga 2 X²
     Cobre 20X¹ + 30X² >= 20
     Zinco 10X¹ + 30X² >= 15
 
-  Maximização:
+  Minimização:
 Z = 40X¹ + 55X²
 
 
