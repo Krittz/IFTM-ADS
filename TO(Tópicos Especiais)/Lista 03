@@ -31,8 +31,8 @@ Em qual quantidade, cada vestido deverá ser fabricado de modo a maximizar o luc
 Restrições:
   Casual X¹ >= 0
   Festa  X² >= 0
-  2X¹ + 5X² <= 32
-  1X¹ + 2x² <= 72
+  1X¹ + 2x² <= 32
+  2X¹ + 5X² <= 72
   
   Maximização:
   Z = 15X¹ + 35X² 
