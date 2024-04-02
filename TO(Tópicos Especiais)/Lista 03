@@ -62,15 +62,16 @@ Sabendo-se que o custo da cenoura é R$2,00 e o KG do espinafre é R$8,00 em qua
 deve ingerir estes alimentos de modo a suprir a ingestão minima diária de vitaminas ao menor
 custo possível?
 
-  Restrições :
-VITAMINA A X¹ >= 0
-VITAMINA C X² >= 0
-   VITAMINA A 5X¹ + 25X² >= 10
-   VITAMINA C 230X¹ + 90X² >= 80
+Restrições:
+Cenoura X¹
+Espinafre X²
 
-   Minimazação: 
-   Z = 2X¹ + 8X²
-
+5X¹ + 25X² >= 10
+230X¹ + 90X² >=80
+X¹ >= 0
+X² >= 0
+Minimização:
+Z = 2,00X¹ + 8,00X² 
 
 05) Uma siderurgica deseja combinar dois tipos de ligas metálicas, afim de criar uma nova liga
 a LIGA 1 possui 60% de  FERRO, 20% de COBRE e 10% de ZINCO e custa R$40,00 o KG, e a LIGA 2 possúi 40% de FERRO
