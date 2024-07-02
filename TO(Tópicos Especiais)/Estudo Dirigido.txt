@@ -1,0 +1,68 @@
+1 - O que é Decisão?
+
+2 - Por que o processo de tomada de decisão é um dos termos mais 
+estudados na Administração?
+    - O cotidiano do administrador é permeado por diversas situações onde o profissional deve se posicionar
+    diante de situações problema em busca da melhor alternativa de solução. (OLIVEIRA, 2004)
+
+
+3 - Cite as estapas de um processo de decisão:
+    1. Percepção da situação que abrange algum problema;
+    2. Diagnóstico e definição do problema;
+    3. Definição dos objetivos;
+    4. Busca de alternativas de solução ou de curso de ação;
+    5. Escolha da alternativa mais apropriada ao alcance dos objetivos;
+    6. Avaliação e comparação dessas alternativas;
+    7. Implementação da alternativa escolhida.
+(CHIAVENATO, 1997).
+
+4 - Segundo Chiavenato(2003), ao verificar a tomada de decisão
+torna-se necessário á compreensão de duas perspectivas para esse processo.
+A perspectiva do processo e a perspectiva do problema. Em que cada perspectiva se concentra?
+   -  A perspectiva do do processo se concentra nas etapas da tomada de decisão como uma sequência de atividades,
+    assim como indicado por Hebert Simon. A perspectiva do problema está orientada para a resolução de problemas
+    através da aplicação de métodos quantitativos para tornar o processo decisório o mais racional possível. (CHIAVENATO, 2003).
+
+5 - O que é Pesquisa Operacional?
+   -  Um conjunto de modelos de decisão com bases quantitativas utilizados para auxiliar quem toma decisões. (DRAFT, 1999).
+6 - Quais as fases que a perspectiva da Pesquisa Operacional utiliza em sua metodologia?
+    1. Formulação do modelo;
+    2. Constução do modelo;
+    3. Calculo da solução através do modelo;
+    4. Teste do modelo e da solução;
+    5. Estabelecimento dos controles da solução;
+    6. Implantação e acompanhamento.
+7 Na sua opinião, qual fase é a mais importante? Justrifique.
+    Implantação e acompanhamento, pois para ter certeza dos resultados e ter métricas mais aprimoradas de como a pesquisa atuou no determinado processo,
+    acompanhar os resultados é a maneira mais eficiênte, assim adaptando os detalhes para uma próxima situação se necessário.
+
+8 - O que é a modelagem matemática? E qual sua vantagem?
+    - A modelagem matemática consiste na arte de transformar problemas da realidade em problemas matemáticos e resolvê-los
+    interpretando suas soluções na linguagem do mundo real. (BASSANEZI, 2002). 
+    Sobre as vantagens Chiavenato destaca:
+        a. permite o entendimento dos fatos de uma forma melhor que a descrição verbal;
+        b. descobre relações existentes entre vários aspectos do problema, não percebidas na descrição verbal;
+        c. permite tratar o problema em seu conjunto e com todas as variáveis simultaneamente;
+        d. pode ser aplicado por etapas e considerar outros fatores não descritos verbalmente;
+        e. utiliza técnicas matemáticas e lógicas;
+        f. conduz a soluções quantitativas;
+        g. permite o uso de computadores para processar grandes volumes de dados.
+
+
+9 - Quais as principais técnicas de Pesquisa Operacional? Discorra resumidamente sobre elas.
+    Programação Linear(PL): utiliza modelos matemáticos para encontrar a melhor solução(máxima ou mínima) para problemas que podem ser representados por relações lineares.
+    Programação Inteira(PI): similar a PL, mas as variáveis de decisão são restritas a valores inteiros;
+    Programação Não-Linear(PNL): lida com problemas onde as relações não são lineares, utilizada em otimizações complexas onde as restrições ou funcção objetivo não podem ser expressadas como combinações lineares;
+    Teoria das Filas: estuda o comportamento das filas ou linhas de espera. aplica-se em situações onde é necessário gerenciar a demanda e o atendimento;
+    Teoria dos Jogos: analisa as situações de competição e cooperação entre diferentes agentes;
+    Simulação: usa modelos computacionais para imitar o funcionamento de sistemas complexos;
+    Análise de Redes: envolve o estudo de redes e grafos para otimizar o fluxo de informação, transporte ou comunicação;
+    Programação Dinâmica(PD): resolve problemas de otimização ao decompor um problema em subproblemas mais simples e resolver cada um deles de forma recursiva;
+    Métodos Heurísticos e Metaheurísticos: envolvem técnicas de busca aprimorada para encontrar soluções satisfatórias em problemas de grande escala ou complexidade, onde os métodos exatos seriam impraticáveis;
+
+
+10 - Conclua com sua visão sobre a importância da Pesquisa Operacional  
+     Vejo como uma disciplina fundaental para a tomada de decisões complexas, utilizando modelos matemáticos e técnicas computacionais
+     para otimização de recursos e processos. Suas principais técnicas, como programação linear, teoria das filas e simulação, 
+     permitem resolver problemas reais de forma eficiente e eficaz, melhorando a produtividade e a eficiência em diversas áreas, desde 
+     logística e procução até serviços e planejamentos estratégicos.
