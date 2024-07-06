@@ -1,0 +1,7 @@
+Restrições 
+8X¹ + 4X² <= 150 horas
+5X¹ + 5X² <= 200 quilos
+X¹ >= 0
+X² >= 0
+
+Objetivo = 5X¹ + 3X²
