@@ -1,0 +1,102 @@
+Todo problema de Programação Linear possui outro problma de
+Programação Linear associado à ele, 'problema dual'.
+O problema original é denominado 'primal'. Surpreendentemente, um 
+pode ser transformado no outro, e cada um deles possui caracterísitcass distintas,
+embora ambo possuam a mesma solulção ótima.
+Se, por exemplo, o problema primal é de minimização, o dual
+é de maximização. Se o primal possui 'n' variáveis e 'm' restrições,
+o dual possui 'm' variáveis e 'n' restrições, e assim por diante.
+Observa-se que é melhor resolver problemas com mais variáveis do que restrições,
+levando a propriedade da dualidade ser muito conveniente.
+Em essência, a dualidade leva a dois resultados importantes.
+O primeiro resultado é relacionado à facilidade de solução do problema.
+Como o dual pode se transformar no primal e vice-versa, pode-se escolher para resolver
+o mais fácil dos dois. Um segundo resultado é que a dualidade permite um 
+entendimento mais profundo do problema questão. O entendimento mais profundo será útil
+na análise de sensibilidade e em determinados tipos de problemas.
+
+- Montagem do Problema dual
+    Seja o seguinte problema de P.L, em forma literal:
+    MAXIMIZAR Z = c¹x¹ + c²x² + c³x³
+    sujeito a:  a¹¹x¹ + a¹²x² + a¹³x³ <=b¹
+                a²¹x¹ + a²²x² + a¹³x³ <= b²
+                a³¹x¹ + a³²x² + a³³x³ <= b³
+
+o dual dese problema pode ser escrito da seguinte maneira:
+    MAXIMIZAR Z = b¹y¹ + b²y² + b³y³ 
+    sujeito à:      a¹¹y¹ + a²¹y² + a³¹y³ >= c¹
+                    a¹²y¹ + a²²y² + a³²y³ >= c²
+                    a¹³y¹ + a²³y² + a³³y³ >= c³
+
+O problema dual, para os modelos em que as restrições são desigualdades do tipo (<=),
+é construido a partir do primal da seguinte maneira:
+    1 - Cada restrição, em um problema, corresponde a uma variável no outro;
+    2 - Os elementos do lado direito das restrições, em um problema, são os coeficientes da
+        função objetivo do outro problema;
+    3 - Se o objetivo de um problema é maximizar, o do outro será minimizar, e vice-versa;
+    4 - O problema de maximização tem restrições com sentido (<=) e o problema de minimização tem
+        restrições com o sentido (>=);
+    5 - As variáveis de ambos os problemas são não negativas.
+
+ * Exemplo:
+    
+    Deseja-se produzir 3 diferentes molhos a partir de uma mistura de catchup e Mostarda.
+    A quantidade disponível de catchup é 80 unidades e de mostarda é de 30 unidades. Seja o 
+    problema linear a seguir que consiste em definir as quantidades ótimas X¹ e X² e X³ 
+    dos molhos tipo 1, 2 e 3 que consiste em diferentes misturas de catchup e mostarda
+        MAXIMIZAR Z = 10x¹ + 7x² + 15x³
+        sujeito à:      5x¹ + 4x² + x³ <= 80
+                        2x¹ + 3x² + 5x³ <= 30
+                            x¹, x², x³ >= 0
+    Suponha que um comprador propõe adquirir toda a matéria prima da fábrica
+    interrompendo a produção:
+        . uma unidade de catchup custará y¹ >= 0;
+        . uma unidade de mostarda custará  y²>= 0;  
+    Os valores de compra y¹ + y² serão fixados arbitrariamente pelo comprador.
+    Entretanto, o dono da fábrica pretende assegurar "certa vantagem" para que não
+    saia no prejuízo.
+        - Qual o preço mínimo de venda destes ingredientes? (visão do vendedor)
+            MAX Z = 10x¹ + 7x² + 15x³
+            s.a.    5x¹ + 4x² + x³ <= 80
+                    2x¹ + 3x² + 5x³ <= 30
+                        x¹, x², x³ >= 0 
+                            |
+                            |
+        Para produzir 1 unidade do primeiro molho, usa-se 5 unidades de catchup
+        e 2 unidades de mostarda. Esta unidade é vendida por 10 unidades monetárias.
+    Portanto, vale a pena vender estas 5 unidades de catchup e estas unidades de 
+    mostarda se o comprador pagar pelo menos 10 unidades monetárias.
+                    5y¹ + 2y² >= 10
+        "VANTAGEM"
+        {   5y¹ + 2y² >= 10    }
+        {   4y¹ + 3y² >= 7     }    O desembolso do comprador será D = 80y¹ + 30y²
+        {   y¹ + 5y² >= 15     }
+        O comprador poderá minimiza-lo manipulando adequadamente os valores
+        unitários das matérias primas y¹ e y²;
+    O problema DUAL será: MIN D =   80y¹ + 30y² 
+                                    5y¹ + 2y² >= 10
+                                    4y¹ + 3y² >= 7
+    Problema linar DUAL             y¹ + 5y² >= 15
+                                    y¹, y² >= 0
+
+    * Primal e Dual
+    MAX Z = 10x¹ + 7x¹ 15x³                 MIN D = 80y¹ + 30y² 
+            5x¹ + 4x² + 5x³ <= 80                   5y¹ + 2y² >= 10
+            2x¹ + 3x² + 5x³ <= 30                   4x¹ + 3y² >= 7
+                x¹, x², x³ >= 0                     y¹ + 5y² >= 15 
+          ppl primal(PP)                             ppl DUAL(P.D)
+        MAX Z (x) = c x                     MIN D(y) = ybt
+            sa  a² <= b                     s.a A >= c
+                x >= 0                          y >=0
+    Ex:
+        Escreva a dual dos seguintes items:
+            a. Maximizar Z= 6x¹ + 7x¹
+                            2x¹ + 3x² <= 12
+                            2x¹ + 1x² <= 8
+                                x¹ + x² >=0
+            b. Minimizar Z = 3x¹ + 4x² 
+
+
+
+
+
