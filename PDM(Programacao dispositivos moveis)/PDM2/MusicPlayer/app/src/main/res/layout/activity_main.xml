@@ -92,7 +92,7 @@
             android:layout_height="25dp"
             android:layout_marginEnd="30dp"
             android:background="@drawable/repeat"
-            android:backgroundTint="#B6FFFA"
+            android:backgroundTint="#FEFFAC"
             tools:ignore="ButtonStyle,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -101,15 +101,14 @@
             android:layout_height="35dp"
             android:layout_marginEnd="30dp"
             android:background="@drawable/previous"
-            android:backgroundTint="#B6FFFA"
+            android:backgroundTint="#BC7AF9"
             tools:ignore="ButtonStyle,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/pauseResumeButton"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
             android:background="@drawable/play"
-
             tools:ignore="ButtonStyle,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -118,7 +117,7 @@
             android:layout_height="35dp"
             android:layout_marginStart="30dp"
             android:background="@drawable/next"
-            android:backgroundTint="#B6FFFA"
+            android:backgroundTint="#BC7AF9"
             tools:ignore="ButtonStyle,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -127,7 +126,7 @@
             android:layout_height="25dp"
             android:layout_marginStart="30dp"
             android:background="@drawable/shuffle_on"
-            android:backgroundTint="#B6FFFA"
+            android:backgroundTint="#FEFFAC"
             tools:ignore="ButtonStyle,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
