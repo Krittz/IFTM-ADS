@@ -1,10 +1,15 @@
 1 - O que é Decisão?
+    Decisão é o processo de escolher uma entre várias alternativas para resolver um 
+    problema ou alcançar um objetivo específico. Envolve a análise de informações, 
+    avaliação de opções e a seleção da melhor ação a ser tomada para obter o resultado desejado. 
+    A tomada de decisão é essencial em todas as áreas da vida, especialmente na administração, 
+    onde os profissionais enfrentam constantemente a necessidade de fazer escolhas que 
+    impactam os resultados organizacionais.
 
 2 - Por que o processo de tomada de decisão é um dos termos mais 
 estudados na Administração?
     - O cotidiano do administrador é permeado por diversas situações onde o profissional deve se posicionar
     diante de situações problema em busca da melhor alternativa de solução. (OLIVEIRA, 2004)
-
 
 3 - Cite as estapas de um processo de decisão:
     1. Percepção da situação que abrange algum problema;
@@ -24,7 +29,9 @@ A perspectiva do processo e a perspectiva do problema. Em que cada perspectiva s
     através da aplicação de métodos quantitativos para tornar o processo decisório o mais racional possível. (CHIAVENATO, 2003).
 
 5 - O que é Pesquisa Operacional?
-   -  Um conjunto de modelos de decisão com bases quantitativas utilizados para auxiliar quem toma decisões. (DRAFT, 1999).
+   -  Um conjunto de modelos de decisão com bases quantitativas utilizados para 
+   auxiliar quem toma decisões. (DRAFT, 1999).
+
 6 - Quais as fases que a perspectiva da Pesquisa Operacional utiliza em sua metodologia?
     1. Formulação do modelo;
     2. Constução do modelo;
@@ -32,12 +39,16 @@ A perspectiva do processo e a perspectiva do problema. Em que cada perspectiva s
     4. Teste do modelo e da solução;
     5. Estabelecimento dos controles da solução;
     6. Implantação e acompanhamento.
-7 Na sua opinião, qual fase é a mais importante? Justrifique.
-    Implantação e acompanhamento, pois para ter certeza dos resultados e ter métricas mais aprimoradas de como a pesquisa atuou no determinado processo,
-    acompanhar os resultados é a maneira mais eficiênte, assim adaptando os detalhes para uma próxima situação se necessário.
+
+7 Na sua opinião, qual fase é a mais importante? Justifique.
+    Implantação e acompanhamento, pois para ter certeza dos resultados e 
+    ter métricas mais aprimoradas de como a pesquisa atuou no determinado processo,
+    acompanhar os resultados é a maneira mais eficiênte, assim adaptando os 
+    detalhes para uma próxima situação se necessário.
 
 8 - O que é a modelagem matemática? E qual sua vantagem?
-    - A modelagem matemática consiste na arte de transformar problemas da realidade em problemas matemáticos e resolvê-los
+    - A modelagem matemática consiste na arte de transformar problemas da realidade 
+    em problemas matemáticos e resolvê-los
     interpretando suas soluções na linguagem do mundo real. (BASSANEZI, 2002). 
     Sobre as vantagens Chiavenato destaca:
         a. permite o entendimento dos fatos de uma forma melhor que a descrição verbal;

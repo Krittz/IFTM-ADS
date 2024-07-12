@@ -45,4 +45,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.35.1-alpha")
+    implementation("androidx.media3:media3-exoplayer:1.1.1")
 }
