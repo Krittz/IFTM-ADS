@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
 
-    <com.chibde.visualizer.CircleBarVisualizer
+    <com.chibde.visualizer.SquareBarVisualizer
         android:id="@+id/visualizer"
         android:layout_width="300dp"
         android:layout_height="300dp"
@@ -18,7 +18,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextSizeCheck" />
-
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnRepeat"
