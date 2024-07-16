@@ -21,7 +21,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnPlaylistView"
-        android:layout_width="18dp"
+        android:layout_width="28dp"
         android:layout_height="18dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="25dp"
@@ -49,7 +49,7 @@
         android:id="@+id/art"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:background="@drawable/hero"
+        android:background="@drawable/sol"
         android:translationY="-105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,11 +71,10 @@
 
     <androidx.appcompat.widget.AppCompatSeekBar
         android:id="@+id/progressMedia"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:backgroundTint="@color/white"
-        android:tickMarkTint="@color/white"
+        android:thumb="@drawable/custom_thumb"
         android:translationY="-50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
